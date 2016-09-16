@@ -165,6 +165,16 @@
 
 }
 
+@font-face {
+    font-family: 'robotomedium';
+    src: url('system/themes/marketplace/fonts/roboto-medium_0-webfont.woff2') format('woff2'),
+    url('system/themes/marketplace/fonts/roboto-medium_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 @font-face {
     font-family: 'open_sansregular';
@@ -980,9 +990,9 @@ width: 584px;
 .con_block1_top_righttext .top_righttext2 span{ color: #ff4800;}
 
 
-.h2textblock{ width: 1162px; margin: 0 auto; margin-top: -34px; background: #ff6600; border-radius: 5px; -webkit-box-shadow: 1px 1px 12px -1px rgba(0,0,0,0.75);
+.h2textblock{ width: 95%; margin: 0 auto; margin-top: -26px; background: #ff6600; border-radius: 5px; -webkit-box-shadow: 1px 1px 12px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 12px -1px rgba(0,0,0,0.75);
-    box-shadow: 1px 1px 12px -1px rgba(0,0,0,0.75); font-size: 48px; color: #f9fbfb; text-transform: uppercase; text-align: center; padding: 26px 28px 28px 28px; font-family: 'robotoblack'; }
+    box-shadow: 1px 1px 12px -1px rgba(0,0,0,0.75); font-size: 35px; color: #f9fbfb; text-transform: uppercase; text-align: center; padding: 29px 8px 32px 8px; font-family: 'robotoblack';  text-shadow: 0 0 8px #656565; }
 
 
 
@@ -1000,7 +1010,7 @@ width: 584px;
 
 
 
-.conference_conblock2{ background: url("system/themes/marketplace/images/conference_block3_bg1.png") no-repeat left bottom;  margin: 0 auto;}
+.conference_conblock2{ background: url("system/themes/marketplace/images/conference_block3_bg1.png") no-repeat center bottom;  margin: 0 auto; padding-bottom: 35px;}
 
 .conference_conblock2 .con_block2_wrapper { width: 1660px; margin: 0 auto; }
 
@@ -1014,7 +1024,7 @@ width: 584px;
 .conference_conblock2 .con_block2_wrapper .con2righttext h2{ margin: 0; padding: 0px; font-size: 36px; line-height: 48px; color: #2c2d30; text-transform: uppercase;     font-family: 'robotoblack';}
 .conference_conblock2 .con_block2_wrapper .con2righttext h2 span{ color: #ff4e00;}
 
-.conference_conblock2 .con_block2_wrapper .con2righttext h3{ margin: 40px 0 0 0; padding: 0 0 0 12px; border-left: solid 4px #ff224c; font-size: 18px; line-height: 36px; color: #494949;   font-family: 'Roboto-Bold'; color: #494949;}
+.conference_conblock2 .con_block2_wrapper .con2righttext h3{ margin: 28px 0 0 0; padding: 0 0 0 12px; border-left: solid 4px #ff224c; font-size: 18px; line-height: 36px; color: #494949;   font-family: 'Roboto-Bold'; color: #494949;}
 .conference_conblock2 .con_block2_wrapper .con2righttext h3 strong{ color: #121212;}
 
 .conference_conblock2 .con_block2_wrapper .con2righttext h3 span{ color: #ff2a00;}
@@ -1031,7 +1041,7 @@ width: 584px;
 
 .conblock4con h3 span{ color: #fb082a;}
 
-.conblock4con h4{ margin: 0; padding: 0px 80px; text-align: center; font-size:24px; color: #ff2400; font-family: 'Roboto-Bold'; line-height: 30px;  }
+.conblock4con h4{ margin: 9px 0 0 0; padding: 0px 80px; text-align: center; font-size:24px; color: #ff2400; font-family: 'Roboto-Bold'; line-height: 30px;  }
 
 
 .con_maintextwrapper{ width: 1040px; margin: 0 auto;}
@@ -1042,7 +1052,7 @@ width: 584px;
     padding: 26px 5px 28px 5px;
     text-align: center;
     text-shadow: 0 0 8px #656565;
-    text-transform: uppercase; margin: 0 auto; margin-top: 30px;}
+    text-transform: uppercase; margin: 44px auto; margin-top: 38px;}
 
 .con_maintextwrapper h6{ width: 703px; text-align: center; background: #ff6600; border-radius: 5px; color: #ffffff;
     font-family: 'Roboto-Bold'; letter-spacing: 4px;
@@ -1053,7 +1063,7 @@ width: 584px;
     text-transform: uppercase; margin: 0 auto; margin-top: 30px;}
 
 
-.sessions_blog{ width: 1542px;  margin: 0 auto;  margin-top: 30px;  border-top: solid 1px #848585;   border-left: solid 1px #848585;}
+.sessions_blog{ width: 1542px;  margin: 44px auto;  margin-top: 44px;  border-top: solid 1px #848585;   border-left: solid 1px #848585;}
 
 .sessions_blogcon{ width: 770px; float: left; border-bottom: solid 1px #848585;   border-right: solid 1px #848585;
     background: rgba(254,254,254,1);
@@ -1066,7 +1076,8 @@ width: 584px;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e7e9eb', GradientType=0 ); padding: 15px; height: 230px;
 }
 
-.sessions_blogcon .blogimgcon{ width: 198px; float: left; border: solid 1px #9d9e9e;}
+.sessions_blogcon .blogimgcon{ width: 200px; float: left; border: solid 1px #9d9e9e;}
+.sessions_blogcon .blogimgcon img{ width: 100%;}
 
 .sessions_blogcon .blogtextcon{ width: 513px; float: right; background: url("system/themes/marketplace/images/dimg_border.png") no-repeat left top; padding-left: 22px; height: 100%;}
 
@@ -1087,23 +1098,193 @@ width: 584px;
     padding: 34px 2px!important;}
 
 
-.conbanner1{ background:#e4dfce url("system/themes/marketplace/images/bottombanner_1_img1.png") no-repeat right bottom; margin-top: 30px; height: 478px; border-top: solid 1px #d9d1bc;}
+.conbanner1{ background:#e4dfce url("system/themes/marketplace/images/bottombanner_1_img1.png") no-repeat right bottom; margin-top: 0px; height: 478px; border-top: solid 1px #d9d1bc;}
 
 .conbanner1_wrapper { background: url("system/themes/marketplace/images/bottombanner_1_img2.png") no-repeat left bottom; height: 100%; overflow: hidden; }
 
-.conbanner1_textwrapper{ width: 870px; margin: 0  auto; margin-top: 65px; text-align: center; font-size: 24px;  color: #262525; line-height: 36px;  font-family: 'Roboto-Bold'; }
+.conbanner1_textwrapper{ width: 870px; margin: 0  auto; margin-top: 58px; text-align: center; font-size: 24px;  color: #262525; line-height: 36px;  font-family: 'Roboto-Bold'; }
 
- .conbanner1_textwrapper a{ display: block; margin: 0 auto; margin-top: 35px; width: 560px;  padding: 44px 2px 48px 0; text-align: center; background: #ff6600; font-size: 36px; color: #fff;  font-family: 'Roboto-Bold'; text-transform: uppercase; letter-spacing: 6px; text-shadow: 0 0 8px #656565;}
+ .conbanner1_textwrapper a{ display: block; margin: 0 auto; margin-top: 60px; width: 560px;  padding: 44px 2px 48px 0; text-align: center; background: #ff6600; font-size: 36px; color: #fff;  font-family: 'Roboto-Bold'; text-transform: uppercase; letter-spacing: 6px; text-shadow: 0 0 8px #656565;}
 
 
  .conbanner2{ width: 100%; position: relative; background: #3fa4d5; }
 
-.conbanner2 .conbanner2_text1{ width: 1100px; margin: 40px auto;  font-family: "robotoblack";
+.conbanner2 .conbanner2_text1{ width: 1100px; margin: 40px auto; margin-top: 30px;  font-family: "robotoblack";
     font-size: 40px; color: #fff; text-align: center; text-shadow: 0 0 8px #656565; line-height: 50px; text-transform: capitalize;}
 
 
 .conbanner2 .conbanner2_text2{ width: 1100px; margin: 0px auto;  font-family: 'Roboto-Bold';
-    font-size: 30px; color: #010101; text-align: center;  background: #d1e42b; padding: 30px; border-radius: 8px 8px 0 0; position: relative; z-index: 9;}
+    font-size: 30px; color: #010101; text-align: center;  background: #d1e42b; padding:24px 30px 30px 30px; border-radius: 8px 8px 0 0; position: relative; z-index: 9;  -webkit-box-shadow: 0px -5px 13px 1px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px -5px 13px 1px rgba(0,0,0,0.55);
+    box-shadow: 0px -5px 13px 1px rgba(0,0,0,0.55);}
 
 
 .bottombanner_2_img1{ position: absolute; right: 0; bottom: 0px;}
+
+
+.conblocknewcon{background:#fff url("system/themes/marketplace/images/conference_block3_bg2.png") no-repeat  center top; padding-top: 55px; min-height: 1014px;}
+
+.conblocknewcon_body1{ background: url("system/themes/marketplace/images/con_newblock4.png") no-repeat  left bottom; padding-bottom: 190px;}
+
+.conblocknewcon_wrapper{ padding-left: 330px; padding-right: 330px;  background: url("system/themes/marketplace/images/con_newblock3.png") no-repeat  right 144px;}
+
+.conblocknewcon_wrapper .con_newblock1{ display: block; margin: 0 auto;}
+
+.conblocknewcon_wrapper .con_newblock2{ display: block; margin: 0 auto;}
+
+.conblocknewcon_wrapper h2{ display: block; width: 588px; margin: 0 auto; background: #4e5a64; background: #4e5a64; border-radius: 5px; text-align: center; font-size: 48px; color: #e0d9d2; padding: 5px 4px 10px 4px; text-transform: uppercase; color: #d5d6d8; text-shadow: 0 1px 6px rgba(150, 150, 150, 1);  font-size: 48px; font-family: "robotoblack";}
+
+
+.conblocknewcon_wrapper h3{ width:860px; margin: 30px auto; margin-bottom: 37px; text-align: center; font-size: 24px; color: #2b2c2c; line-height: 36px;   font-family: 'Roboto-Bold';}
+
+.conblocknewcon_wrapper h3 span{ color: #ff0012}
+
+.h4textnew1{ background: #ff5400; border-radius: 4px; -webkit-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.55);
+    box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.55); padding: 30px!important; margin-bottom: 37px; font-size: 36px; color: #ffffff!important; text-shadow: 0 1px 6px rgba(150, 150, 150, 1); font-family: 'Roboto-Bold'; display: inline-block; text-transform: uppercase;}
+
+.conblocknewcon_wrapper h5{ font-size: 24px; color: #161616; line-height: 30px; font-family: 'Roboto-Bold'; width: 1220px; margin: 0px; padding: 0px;}
+
+.conblocknewcon_wrapper h5 span{ color: #ff0030;}
+
+
+.conblocknewcon_wrapper h6{ font-size: 36px; color: #1c1d1d; line-height: 40px; font-family: 'Roboto-Bold'; margin: 30px 0; padding: 0px; display: block;}
+
+.conblocknewcon_wrapper h6 span{ color: #ff2400;}
+
+
+.conblocknewcon_wrapper label{ font-size: 24px; color: #5b5d5c; line-height: 30px; font-family: 'Roboto-Bold'; }
+
+
+.dealerstrengthtopbanner{background: url("system/themes/marketplace/images/dealerstrength_bg1.jpg") no-repeat  left top; background-size: cover;}
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1{ padding: 0 30px;}
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left{ float: left; width: 1020px;}
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left img{ max-width: 100%;}
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right{ float: right; width: 770px; text-align: center;}
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right .dealerstrength_img1{ display: block; margin: 26px auto;  margin-top: 40px;}
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right h2{ margin: 0; padding: 0; text-align: center; font-size: 70px; color: #191919; text-transform: uppercase; font-family: 'Roboto-Bold';  text-shadow: 1px 3px 4px rgba(150, 150, 150, 1);}
+
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right .dealerstrength_img2{ display: block; margin: 30px auto;}
+
+
+.dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right h3{ margin: 0; padding: 0; text-align: center; font-size: 50px; color: #f54b01; text-transform: uppercase; font-family: 'Roboto-Bold';  }
+
+
+.dealerstrengthtopbanner_block2{ margin: 32px 0; text-align: center;}
+
+.dealerstrengthtopbanner_block2 h2{ font-size: 58px; color: #191919; text-transform: uppercase; font-family: 'Roboto-Bold'; margin: 0; padding: 10px 0 0 0;}
+
+.dealerstrengthtopbanner_block2 h3{ font-size: 36px; color: #020202;   line-height: 45px; font-family: 'robotomedium'; margin: 0; padding: 23px 0 7px 0;}
+
+
+.dealerstrengthblock2{background: url("system/themes/marketplace/images/dealerstrength_bg2.jpg")  left top; padding: 30px 60px 23px 60px;}
+
+.dealerstrengthblock2 h2{ margin: 0; padding: 0; text-align: center; font-size: 72px; color: #fff; text-transform: uppercase; font-family: 'Roboto-Bold';}
+
+.dealerstrengthblock2 h3{ margin: 0; padding: 30px 0 38px 0; text-align: center; font-size: 32px; color: #fffc00; text-transform: uppercase; font-family: 'Roboto-Bold';}
+
+.dealerstrengthblock2 table td{ padding: 0 50px; font-size: 24px; color: #ffffff;  font-family: 'Roboto';  line-height: 30px;}
+
+.dealerstrengthblock2 table td span,a{ color:#010101; text-decoration: none;}
+
+.dealerstrengthblock2 table td h4{ padding:0 0 16px 0; margin: 0; font-size: 30px; color: #ffffff;  font-family: 'robotomedium'; line-height: 34px;}
+
+
+.dealerstrengtmagazineblock{ background: #e0eaeb; padding: 60px 0 0 0;}
+
+.dealerstrengtmagazineblock .magazineblockone{ width: 80%; margin: 0 auto; margin-bottom: 60px;}
+
+.dealerstrengtmagazineblock .magazineblocktwo{ width: 84%; margin: 0 auto; margin-bottom: 60px;}
+
+.dealerstrengtmagazineblock .magazineblocktwo .col-md-6{ margin: 0 2%; padding: 0; width: 46%;  }
+
+
+.dealerstrengtmagazineblock .magazineblockthree{ width: 80%; margin: 0 auto; margin-bottom: 60px;}
+
+.dealerstrengtmagazineblock .magazineblockthree .carousel-control.left{ background: none;}
+
+.dealerstrengtmagazineblock .magazineblockthree .carousel-control.right{ background: none;}
+
+
+.dealerstrengtmagazineblock .magazineblockthree .carousel-control{ color: #7e7e7e!important; opacity:10!important; box-shadow: none!important; text-shadow: none!important; width: auto!important;}
+
+.dealerstrengtmagazineblock .magazineblockthree  .glyphicon-chevron-left{   left: 0%;  margin-left: -40px;}
+
+.dealerstrengtmagazineblock .magazineblockthree  .glyphicon-chevron-right{   right: 0%; margin-right: -40px;}
+
+
+
+
+
+
+
+.dealerstrengtmagazineblock .magazineimg{ border: solid 6px #fff; -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.63);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.63);}
+.dealerstrengtmagazineblock .magazineimg img{ width: 100%;}
+
+
+.dealerstrengtmagazineblock h2{ font-size: 30px; color: #fc3601; text-align: right; font-family: 'Roboto-Bold'; text-transform: uppercase; margin: 0; padding: 0 0 6px 0;}
+
+
+.magazinelink_wrapper{ margin-top: 36px;}
+
+.magazinelink_wrapper .magazinelink1{ width: 48%; float: left; text-align: center; height: 66px; border-radius: 8px; border: solid 1px #fff; background: #f83603; text-align: center; line-height: 63px; font-size: 16px; color: #fff; font-family: 'Roboto-Bold'; text-transform: uppercase;}
+
+.magazinelink_wrapper .magazinelink2{ width: 48%; float: right; text-align: center; height: 66px; border-radius: 8px; border: solid 1px #fff; background: #ff6f06; text-align: center; line-height: 63px; font-size: 16px; color: #fff; font-family: 'Roboto-Bold'; text-transform: uppercase;}
+
+
+
+
+
+.dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink1{
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    padding: 10px 6px;
+   }
+.dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink2{
+
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    padding: 10px 6px;
+}
+
+
+.dealerstrengtformblock{background: url("system/themes/marketplace/images/dealerstrengthezine_formbg.jpg")  left top; background-size: cover; min-height: 674px; position: relative;}
+
+.dealerstrengthezineformimg{  position: absolute; left: 0; bottom: 0;}
+
+
+.dealerstrengt_formmain{ width: 1070px; float: right; margin: 110px 128px 0 0; background: #fff; -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.44);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.44); }
+
+
+
+.dealerstrengt_formmain h2{ text-align: center; margin: 0px; padding: 32px 5px; font-size: 30px; color: #3e3e3e;  font-family: 'Roboto-Bold';  line-height: 32px;}
+
+
+.dealerstrengt_formmain .dealerstrengt_formdiv{ width: 905px; margin: 0 auto; margin-bottom: 30px;}
+
+.dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl{ width: 420px;  float: left; display: block;}
+
+.dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl label{ display: block; background:#ff6c00 url("system/themes/marketplace/images/dealerstrengthezineinputbg1.png") no-repeat  right top; height: 50px; float: left; width: 118px; border-radius: 4px 0 0 4px;  line-height: 50px; padding: 0 10px; font-size: 16px; color: #ffffff; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
+
+.dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl .form-control{ display: block; width: 302px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+
+
+.delsubmit{ float: right!important; margin: 0 16px 0 0!important;  background: url("system/themes/marketplace/images/subbtn1.png")  left top!important; display: block!important; width: 272px!important; height: 107px!important; font-size: 38px!important; color: #ffffff!important; font-family: 'Roboto-Bold'!important;  text-transform: uppercase!important; border: none!important; cursor:pointer!important;
+ letter-spacing: 4px!important; text-shadow: 0 0 4px #888!important; text-align: center!important; padding: 0px 0 0 0!important; border: none!important; box-shadow: none!important;}
+
+.dealerstrengt_formmain .has-error{ font-size: 12px; color: #ff0000; }
+
+}

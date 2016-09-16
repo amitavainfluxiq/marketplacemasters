@@ -23,6 +23,12 @@
         font-family: 'robotobold';
         font-size: 32px;
     }
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
+
+        width: 960px;
+    }
+
 }
 @media(max-width:1820px) {
     .homebannerblock .bannercontent h3 {
@@ -33,6 +39,12 @@
     .homebannerblock .bannercontent h4 {
         font-family: 'robotobold';
         font-size: 28px;
+    }
+
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right {
+
+        width: 710px;
     }
 }
 @media(max-width:1760px){
@@ -103,6 +115,12 @@
         width: 109%;
         margin-left: -28px;
     }
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
+
+        width: 880px;
+    }
+
 }
 
 
@@ -222,7 +240,7 @@
 
 
 
-    .conference_conblock2 .con_block2_wrapper { width: 1360px; margin: 0 auto; padding-bottom: 30px;}
+    .conference_conblock2 .con_block2_wrapper { width: 1360px; margin: 0 auto; padding-bottom: 0px;}
 
     .conference_conblock2 .con_block2_wrapper .con2leftimg {
         float: left;
@@ -276,6 +294,11 @@
 
 @media(max-width:1660px){
 
+    .dealerstrengthblock2{background: url("system/themes/marketplace/images/dealerstrength_bg2.jpg")  left top; padding: 30px 20px 23px 20px;}
+
+    .dealerstrengthtopbanner_block2 h2{ font-size: 46px;}
+    .dealerstrengthtopbanner_block2 h3{ font-size: 28px;
+        line-height: 36px;}
     .topblok_wrapper .navbar-default ul li a{  padding: 0 10px 10px 10px;}
 
     .hometextblock3 .hometextblock3left h3 {  font-size: 38px; }
@@ -319,6 +342,19 @@
     .hometextblock10:before {
         margin-top: -142px;
     }
+
+
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right {
+
+        width:580px;
+    }
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right h3{ font-size: 36px;}
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right h2{ font-size: 50px;}
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right .dealerstrength_img2{ width: 450px;}
+
 }
 
 
@@ -488,7 +524,7 @@
 
     .bannertextblock2 {
         margin-left: 30px;
-        width: 355px;
+        width: 368px;
     }
 
     .bannertextblock2 h2{ width: 100%;  font-size: 40px; line-height: 40px; }
@@ -639,6 +675,14 @@
         width: 122%;
         margin-left: -36px;
     }
+
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
+
+        width: 720px;
+    }
+
+
 }
 
 @media(max-width:1500px) {
@@ -750,6 +794,21 @@
     .hometextblock5 .hometextblock5-wrapper h4 {
         margin-left: 0px;
     }
+
+    .dealerstrengtmagazineblock h2{ font-size: 24px;}
+  .magazinelink_wrapper .magazinelink1{
+        font-size: 14px;
+        height: auto;
+        line-height: 20px;
+        padding: 16px 6px;
+    }
+  .magazinelink_wrapper .magazinelink2{
+
+        font-size: 14px;
+        height: auto;
+        line-height: 20px;
+        padding: 16px 6px;
+    }
 }
 
 
@@ -837,6 +896,13 @@
     .topblok_wrapper .toplogo {
         margin-left: 55px;
         margin-right: 55px;
+    }
+
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
+        float: left;
+        width: 650px;
+        margin: 91px 0 0 0;
     }
 }
 
@@ -1096,6 +1162,14 @@
         margin-left: -36px;
     }
 
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
+        float: left;
+        width: 540px;
+        margin: 91px 0 0 0;
+    }
+
+
 }
 
 @media(max-width:1260px){
@@ -1138,7 +1212,72 @@
 
 @media(max-width:1199px){
 
+    .dealerstrengtmagazineblock .magazineblockthree .magazinelink1{
+        font-size: 16px;
+        height: auto;
+        line-height: 20px;
+        padding: 16px 6px; width: 100%; float: none; margin-bottom: 5px; display: block;
+    }
+    .dealerstrengtmagazineblock .magazineblockthree .magazinelink2{
 
+        font-size: 16px;
+        height: auto;
+        line-height: 20px;
+        padding: 16px 6px;
+        width: 100%; float: none; display: block;
+    }
+
+
+
+
+    .dealerstrengtmagazineblock .magazineblocktwo .magazinelink1{
+        font-size: 16px;
+        height: auto;
+        line-height: 20px;
+        padding: 16px 6px; width: 100%; float: none; margin-bottom: 5px; display: block;
+    }
+    .dealerstrengtmagazineblock .magazineblocktwo .magazinelink2{
+
+        font-size: 16px;
+        height: auto;
+        line-height: 20px;
+        padding: 16px 6px;
+        width: 100%; float: none; display: block;
+    }
+
+
+
+    .dealerstrengtmagazineblock .magazineblockthree .col-md-4{ padding: 0 0.5%; }
+
+
+
+
+
+
+    .dealerstrengthblock2 table td{ display: block; width: 100%; padding: 0px; text-align: center;}
+
+    .dealerstrengthblock2 table td:first-of-type{ padding-bottom: 38px;}
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
+        float: none;
+        width: 96%;
+        margin: 0px auto; margin-top: 30px;
+    }
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right .dealerstrength_img1{max-width: 100%;}
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right {
+        float: none;
+        width: 96%;
+        margin: 0px auto;
+    }
+
+    .dealerstrengthtopbanner_block2 h2{ font-size: 38px; padding-left:5px; padding-right: 5px;}
+
+    .dealerstrengthtopbanner_block2 h3{ font-size: 24px; padding-left:5px; padding-right: 5px;}
+
+
+    .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right .dealerstrength_img2{ width: auto; max-width: 100%;}
 
     .conference_banner{  width: 100%; height: auto; position: relative; overflow: inherit;}
 
@@ -1620,6 +1759,11 @@
     }
 }
 @media(max-width:991px){
+
+
+
+    .dealerstrengtmagazineblock .magazineblocktwo .col-md-6{ margin: 0; padding: 0; width: 100%;  }
+    .dealerstrengtmagazineblock .magazineblocktwo .col-md-6:first-of-type{ margin-bottom: 30px;}
     .imgbgright img {
         width: 135%;
         margin-left: -54%;
@@ -1908,6 +2052,12 @@
         width: 100%;
         margin-bottom: 28px;
     }
+
+    .dealerstrengtmagazineblock .magazineblockthree  h2 {
+        font-size: 11px; height: auto;
+    }
+    .dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper{ margin-top: 6px;}
+
 }
 
 @media(max-width:480px){
@@ -2092,7 +2242,7 @@
 
 
 
-    .h2textblock{ font-size: 40px;}
+    .h2textblock{ font-size: 35px;}
 
     .conference_conblock2 .con_block2_wrapper .con2leftimg img{  display: block; margin: 5px auto; max-width: 100%; }
 
@@ -2273,7 +2423,41 @@
 
 @media(max-width:1199px){
 
+    .dealerstrengtmagazineblock .magazineblockthree{ margin-bottom: 80px;}
+
+    .dealerstrengtmagazineblock .magazineblockthree .glyphicon-chevron-left {
+        left: 0;
+        margin-left: 0px;
+        top: 108% !important;
+    }
+
+    .dealerstrengtmagazineblock .magazineblockthree .glyphicon-chevron-right {
+        margin-right: 0px;
+        right: 0;  top: 108% !important;
+    }
+
     .hometextblock10{ margin-top: 35px;}
+
+    .dealerstrengtmagazineblock .magazineblockthree  h2 {
+        font-size: 12px; height: auto;
+    }
+}
+
+@media(max-width:767px){
+
+
+    .dealerstrengtmagazineblock .magazineblockthree .glyphicon-chevron-left {
+        left: 0;
+        margin-left: 0px;
+        top: 106% !important;
+    }
+
+    .dealerstrengtmagazineblock .magazineblockthree .glyphicon-chevron-right {
+        margin-right: 0px;
+        right: 0;  top: 106% !important;
+    }
+
+
 
 
 }
@@ -2281,7 +2465,389 @@
 
 @media(max-width:610px){
 
+
+
     .hometextblock10-wrapper .block10_center{ width: 90%; margin: 0 auto; overflow: hidden;}
 
 
+}
+
+@media(max-width:1880px){
+    .conblocknewcon_wrapper{ padding-left: 310px; padding-right: 310px;}
+    .conblocknewcon_wrapper h5{ width: 1100px;}
+}
+
+
+@media(max-width:1740px){
+    .h4textnew1{ font-size: 30px;}
+    .conblocknewcon_wrapper h5{ width: 930px;}
+
+    .conblocknewcon_wrapper h6{ width: 930px;}
+
+}
+
+@media(max-width:1800px){
+
+    .dealerstrengt_formmain{ margin-right: 30px;}
+
+    .conbanner1_textwrapper a{ width: 400px;}
+    .dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink1{
+        font-size: 12px;
+        height: auto;
+        line-height: 20px;
+        padding: 10px 6px;
+    }
+    .dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink2{
+
+        font-size: 12px;
+        height: auto;
+        line-height: 20px;
+        padding: 10px 6px;
+    }
+}
+
+
+@media(max-width:1720px){
+
+    .dealerstrengthezineformimg {
+        bottom: 0;
+        left: -140px;
+        position: absolute;
+    }
+}
+
+@media(max-width:1560px){
+
+    .dealerstrengt_formmain{ width: 960px;}
+}
+
+@media(max-width:1460px){
+
+    .dealerstrengthezineformimg{ width: 580px;}
+}
+
+
+@media(max-width:1380px){
+
+    .dealerstrengthezineformimg{ width: 480px;}
+}
+
+
+@media(max-width:1280px){
+
+    .dealerstrengthezineformimg {
+        bottom: 0;
+        left: -168px;
+        position: absolute;
+        width: 480px;
+    }
+}
+
+
+@media(max-width:1199px){
+    .dealerstrengthezineformimg {
+        bottom: 0;
+        left: 0;
+        position: inherit;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px!important;
+        overflow: hidden;  max-width: 100%;
+    }
+
+    .dealerstrengt_formmain {
+
+        box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.44);
+        float: none;
+        margin: 0 auto;
+        width: 96%;
+        margin-top: 49px;
+        padding-bottom: 2px;
+    }
+
+}
+
+@media(max-width:991px){
+    .dealerstrengt_formmain .dealerstrengt_formdiv{ width: 452px; margin: 0 auto; margin-bottom: 30px;}
+
+    .dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl{ width: 420px;  float: none; display: block;}
+
+    .delsubmit{    display: block !important;
+        float: none !important;
+        margin: 0 auto !important;}
+
+}
+
+
+@media(max-width:470px){
+
+    .dealerstrengtmagazineblock .magazineblockthree h2{ font-size: 10px;}
+
+    .dealerstrengt_formmain .dealerstrengt_formdiv{ width: 90%; margin: 0 auto; margin-bottom: 30px;}
+
+    .dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl{ width:90%;  float: none; display: block;}
+
+    .dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl label{ display: block; background:none; height:auto; padding: 0 0px 10px 0; float: none; width: 100%; border-radius:0;  line-height: inherit; padding: 0 0px; font-size: 16px; color: #ff6c00; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
+
+    .dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl .form-control{ display: block; width: 100%; float: none; margin: 0; height: 41px; border-radius:0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+
+
+}
+
+
+
+@media(max-width:1620px){
+
+
+    .dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink1{
+        font-size: 16px;
+        height: auto;
+        line-height: 20px;
+        padding: 10px 6px;
+    }
+    .dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink2{
+
+        font-size: 16px;
+        height: auto;
+        line-height: 20px;
+        padding: 10px 6px;
+    }
+    .conbanner1_wrapper{ background-position: -142px bottom; }
+}
+
+@media(max-width:1576px){
+    .conbanner2 .conbanner2_text1{ width: 860px;}
+    .conbanner2 .conbanner2_text2{ width: 670px;}
+
+    .bottombanner_2_img1 {
+        bottom: 0;
+        position: absolute;
+        right: -74px;
+    }
+
+
+
+
+
+    .conblocknewcon{min-height:inherit; border-bottom: solid 1px #ccc;}
+
+    .conblocknewcon_body1{ background: none; padding-bottom:45px;}
+
+    .conblocknewcon_wrapper{ padding-left:0px; padding-right: 0px;  background: none; width: 90%; margin: 0 auto; text-align: center;}
+
+
+
+
+
+    .conblocknewcon_wrapper h2{ display: block; width: 90%;  }
+
+
+    .conblocknewcon_wrapper h3{ width:100%; margin: 30px auto;}
+
+    .conblocknewcon_wrapper h3 span{ color: #ff0012}
+
+    .h4textnew1{ width: 100%; margin: 0 auto; margin-bottom: 37px;  padding: 30px 5%;!important; }
+
+    .conblocknewcon_wrapper h5{ width: 100%;}
+
+
+
+
+    .conblocknewcon_wrapper h6{ width: 100%;}
+
+
+    .conblocknewcon_wrapper label{ width: 100%; display: block; }
+
+
+
+
+}
+
+
+@media(max-width:1544px){
+    .sessions_blog{ width: 1202px;  margin: 44px auto;  margin-top: 44px;  border-top: solid 1px #848585;   border-left: solid 1px #848585;}
+
+    .sessions_blogcon{ width: 600px; float: left;}
+
+    .sessions_blogcon .blogtextcon{ width: 343px;}
+
+    .sessions_blogcon .blogtextcon h2{ font-size: 26px;}
+
+    .sessions_blogcon .blogtextcon h3{ font-size: 22px; line-height: 24px; height: 57px;}
+
+    .sessions_blogcon .blogtextcon h4{ font-size: 14px; margin-top: 15px;  }
+
+
+    .h4text1 {
+        margin-top: 9px !important;}
+
+
+    .h2text1 {
+        padding: 35px 0 !important;
+    }
+
+}
+
+@media(max-width:1400px){
+    .bottombanner_2_img1 {
+        bottom: 0;
+        position: absolute;
+        right: -100px;
+    }
+
+}
+
+@media(max-width:1330px){
+
+.dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink1{
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    padding: 10px 6px;
+}
+.dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink2{
+
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    padding: 10px 6px;
+}
+}
+@media(max-width:1300px){
+
+    .conbanner1_wrapper{ background-position: -230px bottom;}
+
+    .bottombanner_2_img1 {
+        bottom: 0;
+        position: absolute;
+        right: -100px;
+        width: 410px;
+    }
+}
+
+@media(max-width:1199px){
+
+    .sessions_blog{ width: 772px; }
+    .sessions_blogcon{ width: 770px; float: none;}
+
+    .sessions_blogcon .blogimgcon{ width: 200px; float: left; border: solid 1px #9d9e9e;}
+    .sessions_blogcon .blogimgcon img{ width: 100%;}
+
+    .sessions_blogcon .blogtextcon{ width: 513px; float: right; background: url("system/themes/marketplace/images/dimg_border.png") no-repeat left top; padding-left: 22px; height: 100%;}
+
+
+    .sessions_blogcon .blogtextcon h2{  font-size: 36px; color: #383737; text-transform: none; text-shadow: none; margin: 0; padding: 10px 0;   font-family: 'Roboto-Bold'; text-align: left;}
+
+
+    .sessions_blogcon .blogtextcon h3{ height: auto; font-size: 24px; color: #ff4800; text-transform: none; text-shadow: none; margin: 0; padding:6px 0 10px 0;   font-family: 'Roboto-Bold'; text-align: left;}
+
+    .sessions_blogcon .blogtextcon h4{ font-size: 20px; color: #ffffff; text-transform: none; text-shadow: none; margin: 20px 0 0 0; padding: 24px 2px;   font-family: 'Roboto-Bold'; text-align: center; background: #009cff;}
+
+    .h4text1{ text-align: left; margin-top: 15px!important;   padding: 12px 2px!important;}
+    .h4text1 span{ font-size: 16px; display: block; }
+
+    .h2text1{ padding: 30px 0!important;}
+
+    .h4text3{ margin: 1px 0!important;
+        padding: 34px 2px!important;}
+
+    .conbanner2 .conbanner2_text1{ width: 96%;}
+
+    .conbanner2 .conbanner2_text2{ width: 95%; border-radius: 8px; -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);
+        box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);}
+
+    .bottombanner_2_img1 {
+        bottom: 0;
+        position: inherit;
+        right: 0;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        margin-top: 32px;
+        max-width: 100%;
+    }
+
+
+    .conbanner1_textwrapper{ width: 68%;}
+
+    .conbanner1_textwrapper a{ width: 300px;  padding: 24px 2px 28px 0;}
+
+    .conference_conblock2{ padding-bottom: 10px;}
+}
+
+
+@media(max-width:1040px){
+
+    .con_maintextwrapper{ width: 90%; margin: 0 auto;}
+
+    .con_maintextwrapper h5{ width: 88%;}
+
+    .con_maintextwrapper h6{ width: 60%;}
+    .conbanner1_wrapper{ background:none;}
+
+    .conbanner1{ height: auto; background: none;  padding-bottom: 60px; background-color: #eceae0; }
+    .conbanner1_textwrapper{ width: 90%;}
+
+
+}
+
+@media(max-width:991px){
+
+
+.magazinelink_wrapper .magazinelink1{
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    padding: 16px 6px; width: 100%; float: none; margin-bottom: 5px; display: block;
+}
+.magazinelink_wrapper .magazinelink2{
+
+    font-size: 14px;
+    height: auto;
+    line-height: 20px;
+    padding: 16px 6px;
+    width: 100%; float: none; display: block;
+}
+
+    .dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper h2 {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:800px){
+
+
+    .sessions_blog{ width: 470px; }
+    .sessions_blogcon{ width: 468px; float: none; height: auto;}
+
+    .sessions_blogcon .blogimgcon{ float: none; margin: 0 auto;}
+
+    .sessions_blogcon .blogtextcon{ width: 100%; float: none; margin: 0 auto; height: auto; text-align: center; margin-top: 20px; text-align: center;}
+    .conblock4con h3 { padding: 30px 0;  text-align: center;}
+
+    .conblock4con h4{ padding: 0px;  text-align: center;}
+
+    .con_maintextwrapper h5{ width: 100%; }
+
+    .con_maintextwrapper h6{ width: 100%;}
+
+    .sessions_blogcon .blogtextcon h2{ text-align: center;}
+
+    .sessions_blogcon .blogtextcon h3{ text-align: center;}
+
+    .sessions_blogcon .blogtextcon h4{  padding: 24px 6px;}
+
+    .h4text3{ padding: 34px 6px !important;}
+}
+
+
+@media(max-width:470px){
+
+    .sessions_blog{ width: 317px; }
+    .sessions_blogcon{ width: 315px; float: none; height: auto;}
+
+    .dealerstrengthblock2 h2{ font-size: 50px;}
 }
