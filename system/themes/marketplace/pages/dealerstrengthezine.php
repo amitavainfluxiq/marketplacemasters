@@ -12,31 +12,72 @@
     <div class="container-fluid dealerstrengthtopbanner_block1">
 
         <div class="dealerstrength_top_right">
-            <img src="system/themes/marketplace/images/dealerstrength_img1.png" class="dealerstrength_img1">
-            <h2>Dealer Strength </h2>
-            <img src="system/themes/marketplace/images/dealerstrength_img2.png" class="dealerstrength_img2">
-            <h3> is the premier publication </h3>
+          <?php
+            $dealerstrengthezineimg1='  <img src="system/themes/marketplace/images/dealerstrength_img1.png" class="dealerstrength_img1">';
+          echo $AI->get_defaulted_dynamic_area('dealerstrengthezineimg1',$dealerstrengthezineimg1);
+          ?>
+
+            <h2>
+                <?php
+            $dealerstrengthezineh2='Dealer Strength ';
+                echo $AI->get_defaulted_dynamic_area('dealerstrengthezineh2',$dealerstrengthezineh2);
+                ?>
+            </h2>
+
+            <?php
+            $dealerstrengthezineimg2='<img src="system/themes/marketplace/images/dealerstrength_img2.png" class="dealerstrength_img2">';
+                echo $AI->get_defaulted_dynamic_area('dealerstrengthezineimg2',$dealerstrengthezineimg2);
+                ?>
+            <h3>
+                 <?php
+                 $dealerstrengthezineh3='
+                is the premier publication ';
+                 echo $AI->get_defaulted_dynamic_area('dealerstrengthezineh3',$dealerstrengthezineh3);
+                 ?></h3>
 
         </div>
 
-        <div class="dealerstrength_top_left"> <img src="system/themes/marketplace/images/dealerstrength_img3.png"></div>
+        <div class="dealerstrength_top_left"> <?php
+            $dealerstrengthezineimg3='<img src="system/themes/marketplace/images/dealerstrength_img3.png">';
+            echo $AI->get_defaulted_dynamic_area('dealerstrengthezineimg3',$dealerstrengthezineimg3);
+            ?></div>
 
         <div class="clearfix"></div>
     </div>
 
     <div class="container-fluid dealerstrengthtopbanner_block2">
-        <h2>for digital and social marketing in theAutomotive industry.</h2>
-        <h3>We send out our eZine every Month with incredible insight for your marketing  and dealership. We want you to stay
+        <h2>
+            <?php
+            $dealerstrengthezineh22='for digital and social marketing in theAutomotive industry.';
+            echo $AI->get_defaulted_dynamic_area('dealerstrengthezineh22',$dealerstrengthezineh22);
+            ?>
+
+            </h2>
+        <h3>
+           <?php
+            $dealerstrengthezineh32='
+
+            We send out our eZine every Month with incredible insight for your marketing  and dealership. We want you to stay
             <br/>
-            current and focused on selling cars in the best ways possible.</h3>
+            current and focused on selling cars in the best ways possible.';
+           echo $AI->get_defaulted_dynamic_area('dealerstrengthezineh32',$dealerstrengthezineh32);
+           ?></h3>
     </div>
 </div>
 
 
 <div class="container-fluid dealerstrengthblock2">
 
-    <h2>Dealer Magazine</h2>
-    <h3>To contribute articles to Dealer Strength eZine, please e-mail the corresponding department below: </h3>
+    <h2>
+         <?php
+            $dealerstrengthblock2text1='Dealer Magazine';
+         echo $AI->get_defaulted_dynamic_area('dealerstrengthblock2text1',$dealerstrengthblock2text1);
+         ?></h2>
+
+    <h3><?php
+            $dealerstrengthblock2text2='To contribute articles to Dealer Strength eZine, please e-mail the corresponding department below: ';
+        echo $AI->get_defaulted_dynamic_area('dealerstrengthblock2text2',$dealerstrengthblock2text2);
+        ?></h3>
 
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>

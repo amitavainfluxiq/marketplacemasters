@@ -954,6 +954,24 @@ width: 584px;
 .conference_banner_text .bannertextblock1 h3{ margin: 40px 0 0 0; padding: 0; text-align: center; font-size: 24px; color: #ffffff;    font-family:'OpenSans-Semibold'; line-height: 30px; }
 
 
+.conference_banner_text .bannertextblock1 h6{ padding: 0;  font-size: 30px; color: #252525; text-transform: uppercase;    font-family: 'robotobold'; line-height: 40px; margin: 45px 0 16px 5%; }
+
+.conference_banner_text .bannertextblock1 .mediaroombannerimg2{ display: block; margin: 0 0 0 4.8%;}
+
+.conference_banner_text .bannertextblock1 .mediaroombannerimg2 img{ max-width: 100%;}
+
+
+.mediaroom_block2{background: url("system/themes/marketplace/images/mediaroom_con1bg.jpg") left top; text-align: center; padding:19px 30px 30px 30px;}
+
+.mediaroom_block2 h2{ text-align: center; margin: 0; padding: 0 0 15px 0; font-size: 48px ;color: #ffffff; text-transform: uppercase; font-family: 'robotobold';}
+
+.mediaroom_block2 h3{ text-align: center; margin: 0; padding: 0; font-size: 30px ;color: #202020; line-height: 36px;  font-family: 'robotobold';}
+
+
+
+
+
+
 
 .bannertextblock2{ width:500px; float: left; margin-left: 124px;  }
 
@@ -1287,4 +1305,116 @@ width: 584px;
 
 .dealerstrengt_formmain .has-error{ font-size: 12px; color: #ff0000; }
 
+
+
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.mediaroom_videoblock{ width: 1660px; margin: 50px auto; margin-bottom: 0px;}
+
+
+.mediaroom_videoblock .mediaroom_videoblock_top{ width: 100%; border-bottom: solid 1px #b6bebf; padding-bottom: 30px; margin-bottom: 30px;}
+
+.mediaroom_videoblock .mediaroom_videoblock_top .mediaroom_topvideo_left{ width: 726px;  float: left;}
+
+.mainvideo{background: #059593; }
+
+
+.mediaroom_topvideo_right{ width: 900px; float: right; border-left: solid 1px #b6bebf;  padding-left: 30px; margin-left: 30px; }
+
+.mediaroom_topvideo_right h2{ margin: 0; padding:0 0 12px 0; font-size: 24px; color: #2a2a2a;   font-family: 'Roboto';}
+
+.mediaroom_topvideo_right .videoviews{ width: 45%; float: left; font-size: 18px; color: #444444; text-align: left; font-family: 'Roboto';}
+
+.mediaroom_topvideo_right .videotime{ width: 45%; float: right; font-size: 18px; color: #444444; text-align: right; font-family: 'Roboto';}
+
+.videodevider{ width: 100%; height: 1px; background:#b6bebf; margin: 16px 0;  }
+
+.mediaroom_topvideo_right h4{ font-size: 18px; color: #191919; font-family: 'Roboto'; margin: 0; padding: 0;}
+
+.mediaroom_topvideo_right h5{ margin: 15px 0; padding: 0; font-family: 'Roboto'; font-size: 16px; color: #444444; line-height: 18px;}
+
+.mediaroom_topvideo_right h5 a{ color: #3755b8;}
+
+
+.mediaroom_topvideo_right h6{ margin: 0; padding: 0; font-family: 'Roboto'; font-size: 16px; color: #444444; line-height: 18px;}
+
+.mediaroom_topvideo_right h6 a{ color: #3755b8;}
+
+
+
+.videoreadmore{ font-family: 'Roboto'; font-size: 16px; color: #f97703; display: block; margin-top: 30px; width: 90px; }
+
+
+.allvideoblock{ margin-bottom: 2%;
+    margin-right: 2%;
+    padding: 0;
+    width: 23.3%;}
+
+.allvideoblock:nth-child(4n){ margin-right: 0px;}
+
+.allvideoblock .allvideobox{ width: 100%; position: relative; background: #2fa7a5; }
+
+.allvideoblock .allvideobox .videoimg{ width: 100%;}
+
+
+.allvideoblock .allvideobox .videoplay{ left: 37%;
+    position: absolute;
+    top: 28%;
+    width: 26%; }
+
+
+.allvideoblock h2{ margin: 0; padding: 15px 0;  font-size: 14px; color: #505050; line-height: 18px; font-family: 'Roboto'; height: 60px;
+    line-height: 20px;
+
+    overflow: hidden;}
+
+
+.allvideoblock h3{ margin: 10px 0 0 0; padding:14px 0 15px 0; font-size: 18px; color: #1384af; line-height: 18px; font-family: 'Roboto';  border-top: solid 1px #b6bebf;}
+
+.allvideoblock table td{  padding: 10px; background: #b1c5cc; color: #fff;     font-family: 'robotomedium'; font-size: 14px; width: 50%;}
+
+
+
+.mediaroom_block3{background: url("system/themes/marketplace/images/mediaroom_con2bg.jpg") left top; text-align: center; padding:30px;}
+
+.mediaroom_block3 h2{ text-align: center; margin: 0; padding: 0; font-size: 48px ;color: #ffffff; text-transform: uppercase; font-family: 'robotobold';}
+
+
+.mediaroom_formblock{background: url("system/themes/marketplace/images/mediaroom_formbg2.png") left top; background-size: cover; }
+
+.mediaroom_formblock_wrapper{background: url("system/themes/marketplace/images/mediaroom_formbg1.png") right bottom no-repeat; min-height: 985px;}
+
+
+.mediaroom_formblockcon{ width: 890px; margin: 90px 0 0px 200px; border: solid 1px #d5d7d7; border-radius: 6px; padding: 40px 0; background: #fafefe; }
+
+
+
+.mediaroom_formblockcon .formlogo{ display:block; margin: 0 auto; margin-bottom: 30px;}
+
+
+.mediaroom_formblockdiv{ width: 610px; margin: 0 auto;}
+
+
+ .form-groupd2{ width: 610px;   display: block; margin: 0 auto; margin-bottom: 20px;}
+
+.form-groupd2 label{ display: block; background:#ff6c00 url("system/themes/marketplace/images/dealerstrengthezineinputbg1.png") no-repeat  right top; height: 50px; float: left; width: 118px; border-radius: 4px 0 0 4px;  line-height: 50px; padding: 0 10px; font-size: 16px; color: #ffffff; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
+
+ .form-groupd2 .form-control{ display: block; width: 492px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+
+
+.delsubmit2{  margin: 0 auto!important;  background: url("system/themes/marketplace/images/subbtn1.png")  left top!important; display: block!important; width: 272px!important; height: 107px!important; font-size: 38px!important; color: #ffffff!important; font-family: 'Roboto-Bold'!important;  text-transform: uppercase!important; border: none!important; cursor:pointer!important;
+    letter-spacing: 4px!important; text-shadow: 0 0 4px #888!important; text-align: center!important; padding: 0px 0 0 0!important; border: none!important; box-shadow: none!important;}

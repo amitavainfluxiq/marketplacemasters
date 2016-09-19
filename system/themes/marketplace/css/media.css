@@ -239,6 +239,12 @@
     }
 
 
+    .mediaroom_videoblock { width: 1360px; }
+
+    .mediaroom_videoblock .mediaroom_videoblock_top .mediaroom_topvideo_left{ width: 576px;  }
+    .mediaroom_topvideo_right{ width: 750px;  }
+
+
 
     .conference_conblock2 .con_block2_wrapper { width: 1360px; margin: 0 auto; padding-bottom: 0px;}
 
@@ -504,6 +510,8 @@
 }
 
 @media (max-width: 1540px){
+
+    .conference_banner_text .bannertextblock1 .mediaroombannerimg2 img{ width: 580px;}
     .hometextblock11-wrapper .block11con:first-of-type .imgwrapper img {
         display: block;
         width: 120%;
@@ -813,6 +821,14 @@
 
 
 @media (max-width: 1366px){
+
+    .mediaroom_videoblock { width: 1200px; }
+
+    .mediaroom_videoblock .mediaroom_videoblock_top .mediaroom_topvideo_left{ width: 496px;  }
+    .mediaroom_topvideo_right{ width: 670px;  }
+
+
+
     .hometextblock10:before {
         content: " ";
         position: absolute;
@@ -1211,6 +1227,23 @@
 
 
 @media(max-width:1199px){
+
+
+    .mediaroom_videoblock { width: 90%; }
+
+    .mediaroom_videoblock .mediaroom_videoblock_top .mediaroom_topvideo_left{ width: 100%; float: none;  }
+    .mediaroom_topvideo_right{ text-align:center;  width: 100%; float: none; margin: 0 auto; margin-top: 30px; padding: 30px 0 0 0;border-left: none;  border-top: solid 1px #b6bebf;  }
+
+    .videodevider{ margin: 30px 0;}
+
+    .mediaroom_topvideo_right .videoviews{ float: none; margin: 0; text-align: center;    width: 100%;}
+
+    .videoreadmore{ margin: 0 auto!important; text-align: center; margin-top: 30px!important;}
+
+    .mediaroom_topvideo_right .videotime{float: none; margin: 0; text-align: center; padding-top: 10px;    width: 100%;}
+    .conference_banner_text .bannertextblock1 h6{ text-align: center; margin: 0 0 16px 0;}
+
+    .conference_banner_text .bannertextblock1 .mediaroombannerimg2 img{ max-width: 100%; width: auto; display: block; margin: 0 auto;}
 
     .dealerstrengtmagazineblock .magazineblockthree .magazinelink1{
         font-size: 16px;
@@ -2423,6 +2456,14 @@
 
 @media(max-width:1199px){
 
+
+    .allvideoblock{ margin-bottom: 2%;
+        margin-right: 2.4%;  margin-left: 2.5%;
+        padding: 0;
+        width: 45%;}
+
+    .allvideoblock:nth-child(4n){ margin-right: 2.4%;}
+
     .dealerstrengtmagazineblock .magazineblockthree{ margin-bottom: 80px;}
 
     .dealerstrengtmagazineblock .magazineblockthree .glyphicon-chevron-left {
@@ -2445,6 +2486,13 @@
 
 @media(max-width:767px){
 
+    .allvideoblock{ float: none; margin: 5px auto; margin-bottom: 0px;
+        padding: 0;
+        width: 100%;}
+
+    .allvideoblock:nth-child(4n){ margin: 5px auto; margin-bottom: 0px;}
+
+
 
     .dealerstrengtmagazineblock .magazineblockthree .glyphicon-chevron-left {
         left: 0;
@@ -2458,7 +2506,7 @@
     }
 
 
-
+    .mediaroom_block3{ margin-top: 20px;}
 
 }
 
@@ -2795,6 +2843,8 @@
 
 @media(max-width:991px){
 
+    .dealerstrengtmagazineblock .magazineblockthree h2{ height: 50px;}
+
 
 .magazinelink_wrapper .magazinelink1{
     font-size: 14px;
@@ -2850,4 +2900,62 @@
     .sessions_blogcon{ width: 315px; float: none; height: auto;}
 
     .dealerstrengthblock2 h2{ font-size: 50px;}
+}
+
+
+@media(max-width:1800px){
+
+    .mediaroom_formblockcon{ width: 760px;   margin: 90px 0 0 60px;}
+
+}
+
+
+@media(max-width:1400px){
+
+    .mediaroom_formblockcon{ width: 670px;   margin: 90px 0 0 60px;}
+
+}
+
+@media(max-width:1280px){
+.mediaroom_formblock_wrapper{ background-position:  440px bottom;}
+
+}
+
+@media(max-width:1199px){
+    .mediaroom_formblock_wrapper{ background:none; min-height: inherit;}
+
+    .mediaroom_formblockcon{ width: 700px; margin: 40px auto;}
+
+}
+
+@media(max-width:767px){
+
+    .mediaroom_formblockcon{ width: 90%; margin: 40px auto;}
+
+    .mediaroom_formblockdiv{ width: 100%!important; margin: 0 auto;}
+
+    .form-groupd2{ width: 420px;   display: block; margin: 0 auto; margin-bottom: 20px;}
+    .form-groupd2 .form-control{ display: block; width: 302px;}
+}
+
+
+@media(max-width:500px){
+
+
+    .mediaroom_formblockcon .formlogo{ max-width: 98%;}
+    .form-groupd2{ width: 380px;   display: block; margin: 0 auto; margin-bottom: 20px;}
+    .form-groupd2 .form-control{ display: block; width: 262px;}
+}
+
+
+@media(max-width:440px){
+
+    .form-groupd2{ width:90%;  float: none; display: block;}
+
+    .form-groupd2 label{ display: block; background:none; height:auto; padding: 0 0px 10px 0; float: none; width: 100%; border-radius:0;  line-height: inherit; padding: 0 0px; font-size: 16px; color: #ff6c00; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
+
+    .form-groupd2 .form-control{ display: block; width: 100%; float: none; margin: 0; height: 41px; border-radius:0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+
+
+
 }
