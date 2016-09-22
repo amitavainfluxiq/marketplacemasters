@@ -13,10 +13,12 @@ $AI->skin->css('system/themes/marketplace/css/bootstrap.min.css');
 $AI->skin->css('system/themes/marketplace/css/style.css');
 $AI->skin->css('system/themes/marketplace/css/media.css');
 $AI->skin->js('system/themes/marketplace/js/bootstrap.min.js');
+
 /*<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>*/
 
 ?>
+
 
 <div class="container-fluid topblock">
 

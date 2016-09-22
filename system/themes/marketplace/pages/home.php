@@ -30,9 +30,10 @@
         <div class="bannercontent">
             <blockquote>
                <?php
-               $bannertexthome1='<h3>Join Us In Dallas Texas I September 18, 19, 20</h3>
+               $bannertexthome1='<h3>JOIN US IN DALLAS, TEXAS  I September 18, 19, 20</h3>
                 <h4>Presale Tickets Available October 15th, 2016 </h4>
-                 <p>Get On Top Of The Radically Changing Market Place. Put the POWER back in your Marketing Strategies.Digital Marketing Is Going LOCAL. Are You Ready? </p>';
+                 <p>Get On Top Of The Radically Changing Market Place.<br/>Put the POWER back into your Marketing Strategies.<br/>
+Digital Marketing is Going LOCAL. Are You Ready? </p>';
                     echo $AI->get_defaulted_dynamic_area('bannertexthome1',$bannertexthome1);
                     ?>
 
@@ -64,7 +65,7 @@
         <h4>
 
             <?php
-            $hometextblock5h4='Join us and gain extreme clarity of where the ';
+            $hometextblock5h4='Join us to gain extreme clarity of where the';
             echo $AI->get_defaulted_dynamic_area('hometextblock5h4',$hometextblock5h4);
             ?>
         </h4>
@@ -133,14 +134,16 @@
 
         <?php
 
-        $hometextblock4h5='<h5>is a moving target and it’s<br/> changing. Come learn from leaders in the industry and<br/>     supercharge your dealership for forthcoming paradigm shift.</h5>';
+        $hometextblock4h5='<h5>is a moving target and it’s<br/> changing. Come learn from leaders in the industry and<br/>     supercharge your dealership for the forthcoming paradigm shift.
+</h5>';
         echo $AI->get_defaulted_dynamic_area('hometextblock4h5',$hometextblock4h5);
             ?>
 
 
         <?php
 
-        $hometextblock4h3='<h3>Our Message and Mission is very specialized and focused on the emerging new online local marketplace for auto dealers. Besides incredible current opportunities there are major shifts coming. There is no other convention on earth that will bring you this incredible information like the <span>MarketPlaceMasters Dealership Series.</span></h3>';
+        $hometextblock4h3='<h3>Our Message and Mission is specialized and focused on the emerging new online local marketplace for auto dealers. Major shifts are coming, in addition to current opportunities. No other convention on Earth will bring you this incredible information like the <span>MARKETPLACE MASTER DEALERSHIP SERIES.</span>
+</h3>';
             echo $AI->get_defaulted_dynamic_area('hometextblock4h3',$hometextblock4h3);
             ?>
        
@@ -340,7 +343,7 @@ echo $AI->get_defaulted_dynamic_area('block7_lefth234',$block7_lefth234);?>
             <div class="block10_center">
 
 <?php
-$block10_centerh5='<h5>"The age of the Social Enterprise and Sharing Economy is changing the way executives lead in today\'s <br/>hyper-connected, mobile, and global business world.<br/>As a long-time CEO and one of the top 100 most influential angel investors in social media in the<br/> US, I can   empathize with the challenges executives and start-ups face today: the nology."<br/> ever-changing   landscape of social media, disruptive innovation, and new tech"</h5>';
+$block10_centerh5='<h5>"The age of the Social Enterprise and Sharing Economy is changing the way executives lead in today\'s <br/>hyper-connected, mobile, and global business world.<br/>As a long-time CEO and one of the top 100 most influential angel investors in social media in the<br/> US, I can empathize with the challenges executives and start-ups face today: the ever-changing<br/>landscape of social media, disruptive innovation, and new technology.”</h5>';
 echo $AI->get_defaulted_dynamic_area('block10_centerh5',$block10_centerh5);?>
 
 
@@ -371,8 +374,8 @@ echo $AI->get_defaulted_dynamic_area('hometextblock1img',$hometextblock1img);?>
 $hometextblock1h4h2h3='<h2>Speaker</h2>
                 <h3>Keynote Speaker: Peter Bordes</h3>
                 <h4>
-                    Subject: Online Social Media and Massive Audience
-                    Development for dealers
+                    Subject: Online Social Media and Massive Audience Development for Dealers
+
                 </h4>';
 echo $AI->get_defaulted_dynamic_area('hometextblock1h4h2h3',$hometextblock1h4h2h3);?>
                 <a href="javascript:void(0)"  data-toggle="modal" data-target="#myModal1">View Full Bio</a>
@@ -391,7 +394,8 @@ echo $AI->get_defaulted_dynamic_area('block11conimg',$block11conimg);?>
 
 <?php
 $block11con_texth234='<h2>Speaker</h2>
-                <h3>Keynote Speaker:  D.J. Harrington</h3>
+                <h3>KEYNOTE SPEAKER: D.J. HARRINGTON
+</h3>
 
                 <h4>
                     Subject: Staying Genuine in a Changing Marketplace
@@ -496,8 +500,10 @@ echo $AI->get_defaulted_dynamic_area('block11con_texth2342009img',$block11con_te
 $block11con_texth2342009h234='<h2>Speaker</h2>
                 <h3>Keynote Speaker: Beto Paredes</h3>
                 <h4>
-                    Subject: The Emerging New Market is bringing a Major
-                    Shift for the Automotive Industry – Get Ready!
+                   Subject: The Emerging New Market brings a Major Shift
+                for the Automotive Industry - Get Ready!
+
+
                 </h4>';
 echo $AI->get_defaulted_dynamic_area('block11con_texth2342009h234',$block11con_texth2342009h234);?>
                 <a href="javascript:void(0)"  data-toggle="modal" data-target="#myModal5">View Full Bio</a>
@@ -625,7 +631,7 @@ echo $AI->get_defaulted_dynamic_area('hometextblock9_leftimg23',$hometextblock9_
 
                     </td>
 
-                    <td align="center" valign="bottom">&nbsp;</td>
+                    <td align="center" valign="bottom" class="blanktd">&nbsp;</td>
                 </tr>
             </table>
 

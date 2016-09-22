@@ -35,10 +35,7 @@
 <h2>
 
     <?php
-    $conferencebannertext1=' Come learn exactly what<br/>
-    are the most effective marketing<br/>
-    methods in this new social<br/>
-    and digital age.';
+    $conferencebannertext1=' COME LEARN THE EXACT AND MOST<br/>EFFECTIVE MARKETING METHODS<br/>FOR THIS NEW SOCIAL<br/>AND DIGITAL AGE.';
     echo $AI->get_defaulted_dynamic_area('conferencebannertext1',$conferencebannertext1);
     ?>
 
@@ -49,10 +46,9 @@
             <h3>
                 <?php
                 $conferencebannertext2='
-                Dealers need a compass and methods that are truly effective.<br/>
-                We are here to focus these efforts on the ideas<br/>
-                we know work. Unlike any education source before us we are laser<br/>
-                focusing on what actually works.';
+                Dealers need an educational compass and methods that are truly<br/>effective. We are here to spotlight the ideas we know work.<br/>
+Unlike any education source before us,<br/>we are laser focusing on what actually works.
+';
                 echo $AI->get_defaulted_dynamic_area('conferencebannertext2',$conferencebannertext2);
                 ?>
 
@@ -121,7 +117,8 @@
             <div class="top_righttext2">
 
                 <?php
-    $rewardrighttext2='  The age of the internet has changed marketing forever, but that does not change the fact that you r dealership is a local business. One that needs to grasp all the <span>power of social and digital marketing</span> in order to take full advantage of available methods and technology.';
+    $rewardrighttext2='  The age of the Internet has changed marketing forever. That doesn’t change the fact that your dealership is a local business, and one that needs to grasp all the <span>power of social and digital marketing</span> in order to take full advantage of available methods and technology.
+';
                 echo $AI->get_defaulted_dynamic_area('rewardrighttext2',$rewardrighttext2);
                 ?>
             </div>
@@ -137,7 +134,7 @@
         <h2 class="h2textblock">
 
                <?php
-    $h2textblock='Subjects that our incredible lineup of speakers will be covering:';
+    $h2textblock='THE SUBJECTS OUR INCREDIBLE LINEUP OF SPEAKERS WILL BE COVERING:';
                echo $AI->get_defaulted_dynamic_area('h2textblock',$h2textblock);
                ?>
 
@@ -155,9 +152,9 @@
                    <?php
     $conblock2ul='
 
-                <li>Social Media for dealerships</li>
-                <li> <span>Marketing to millennials</span> and how to get in front of them</li>
-                <li> Teaching your staff to be social influencers</li>
+                <li>Social Media for Dealerships</li>
+                <li> <span>Marketing to Millennials</span> and how to get in front of them</li>
+                <li>Teaching your staff to be Social Influencers</li>
                 <li> Combining online and offline community presence efforts</li>
                 <li> Standing apart from your competition in the digital space</li>
                 <li>Online marketing and media buying</li>
@@ -228,8 +225,7 @@
 
             <h2>
                <?php
-            $con2righttext1=' Instead of trying to get you to try everything new under the sun we concentrate on educating you on what works. Our show is a concentrated educational on <span>EXACTLY</span> what a dealership can
-                do with the current online market place.';
+            $con2righttext1=' INSTEAD OF ASKING YOU TO TRY EVERYTHING NEW UNDER THE SUN, WE CONCENTRATE ON EDUCATING YOU ON WHAT WORKS. OUR SHOW IS A CONCENTRATED EDUCATIONAL ON <span>EXACTLY</span> WHAT A DEALERSHIP CAN DO WITH THE CURRENT ONLINE MARKET PLACE.';
                echo $AI->get_defaulted_dynamic_area('con2righttext1',$con2righttext1);
                ?>
 
@@ -243,7 +239,7 @@
                 with their digital marketing landscape. We concentrate our information on how
                 dealers are able to create and maintain a strong local audience through social media,
                 <span>digital marketing and audience development.</span>
-                This is not just about services that are available or the latest trends. As much as those play a role in our series we are bringing you the very core skills and knowledge you need to build a real presence online and in your local <span>social marketplace.</span>';
+                This is not just about services that are available or the latest trends. As much as those play a role in our series, we are bring you the very core skills and knowledge you need to build a real presence online and in your local <span>social marketplace.</span>';
               echo $AI->get_defaulted_dynamic_area('con2righttext2',$con2righttext2);
               ?>
         </h3>
@@ -262,7 +258,8 @@
 <div class="container-fluid conblock3heading">
 
      <?php
-     $blockcon3heading=' SEPTEMBER 7th,8th and 9th 2017 CONFERENCE INFORMATION';
+     $blockcon3heading=' SEPTEMBER 7<sup>th</sup>, 8<sup>th</sup>, AND 9<sup>th</sup>: 2017 CONFERENCE INFORMATION
+';
      echo $AI->get_defaulted_dynamic_area('blockcon3heading',$blockcon3heading);
      ?>
 
@@ -291,10 +288,11 @@
 
       <h3>
            <?php
-     $blockcon4h3=' Unlike other conferences we have incredible benefits for those that get in
-          the<br/>first day and show up early. We wanted to give you such a packed out event<br/>
-          with the most <span>incredible benefits</span> that showing<br/>
-          up early is really worth it!';
+     $blockcon4h3=' Unlike other conferences, we have outstanding benefits for those<br/>
+ that show up early and get in the first day. We wanted to give you such<br/>
+ a packed out event, with the most <span>incredible benefits</span>,<br/>
+ that showing up early is really worth it!
+';
            echo $AI->get_defaulted_dynamic_area('blockcon4h3',$blockcon4h3);
            ?>
       </h3>
@@ -304,7 +302,7 @@
       <h4 class="h4textnew1">
 
            <?php
-     $h4textnew1=' Early Registration Noon to 7:00PM';
+     $h4textnew1='EARLY REGISTRATION – NOON TO 7:00PM';
            echo $AI->get_defaulted_dynamic_area('h4textnew1',$h4textnew1);
            ?>
       </h4>
@@ -320,9 +318,7 @@
 
          <?php
           $h4textnewh5='
-          In this session we will have tables out and over <span>15 experts</span> that are there ready to go one on one with you about your dealership. If you will bring your laptops to this session you will get personal one on one giving you the
-          best way for you to navigate the rest of the conference. All of the consultants will be from reputable
-          companies with representatives you can speak with on the Exhibit hall floor
+          In this session, we will have tables out with over <span>15 EXPERTS</span> that are ready to go one-on-one with you about your dealership. Bring your laptops to this session and you will get personal one-on-one consultations. This gives you the best way to navigate the rest of the conference! All of the consultants are from reputable companies with representatives who you can speak with on the Exhibit hall floor.
           ';
          echo $AI->get_defaulted_dynamic_area('h4textnewh5',$h4textnewh5);
          ?>
@@ -332,19 +328,19 @@
       <h6>
             <?php
           $h4textnewh6='
-          Exhibitor Meet Market and Cocktails – <span>7:00PM to 9:00PM</span>';
+         EXHIBITOR MEET-MARKET AND COCKTAILS – <span>7:00PM to 9:00PM</span>';
             echo $AI->get_defaulted_dynamic_area('h4textnewh6',$h4textnewh6);
             ?>
           </h6>
 
       <label>
             <?php
-          $h4textnewlabel='The Meet Market is an exclusive opportunity to meet the exhibitors in a more
+          $h4textnewlabel='The Meet-Market is an exclusive opportunity to meet the exhibitors in a more
           intimate setting. You can quickly review their information and meet some their staff.
-           Each exhibitor in the meet marketing has a table and a chance to set appointments with
+           Each exhibitor in the Meet-Market has a table and a chance to set appointments with
            you for later during the Exhibit hall.  We will be offering cocktails and giving conference
-           information to dealers at the same time. We expect most of the early arrivers to be at the
-           Meet Market as it directly follows the Early Adopters Workshop Intensive.';
+           Information to dealers at this time. We expect most of the early arrivers to be at the Meet-Market as
+            it directly follows the Early Adopters Workshop Intensive.';
             echo $AI->get_defaulted_dynamic_area('h4textnewlabel',$h4textnewlabel);
             ?>
 
@@ -373,7 +369,8 @@
     <h3>
         <?php
           $conmaintextwrapperh3='
-        General sessions will be going in the main conference hall as well as at our exhibit hall break out educational. In these two packed days of general sessions you will hear from over 20 experts in the industry. All general sessions will be hosted by <span>DJ Harrington</span>.
+       General sessions will be held in the main conference hall, as well as at our exhibit hall break-out educational. In these two packed days of general sessions, you will hear from over 20 experts in the
+ industry. All general sessions will be hosted by <span>DJ Harrington</span>.
     ';
         echo $AI->get_defaulted_dynamic_area('conmaintextwrapperh3',$conmaintextwrapperh3);
         ?>
@@ -416,12 +413,12 @@
 
             <div class="blogtextcon">
 
-
+               
                  <?php
             $blogtextcon1='
                 <h2>DJ Harrington</h2>
                 <h3>Staying Genuine in a Changing Marketplace </h3>
-                <h4>Conference Opening: 8:00AM to 9:00 AM</h4>
+                <h4><!--Conference Opening: -->8:00AM to 9:00 AM</h4>
                 ';
                  echo $AI->get_defaulted_dynamic_area('blogtextcon1',$blogtextcon1);
                  ?>
@@ -440,7 +437,7 @@
                  <?php
             $blogtextcon2='<h2>Ken Shilson</h2>
                 <h3>Hosted by the Ken Shilson from NABD </h3>
-                <h4>All-Star Dealer Panel: 9:00AM to 10:00 AM</h4>';
+                <h4><!--All-Star Dealer Panel:--> 9:00AM to 10:00 AM</h4>';
                  echo $AI->get_defaulted_dynamic_area('blogtextcon2',$blogtextcon2);
                  ?>
             </div>
@@ -457,7 +454,7 @@
                <?php
             $blogtextcon3='  <h2>Peter Bordes</h2>
                 <h3>Building Local Audience and Loyalty</h3>
-                <h4>First Keynote: 10:00AM to 11:30 AM </h4>';
+                <h4><!--First Keynote:--> 10:00AM to 11:30 AM </h4>';
                echo $AI->get_defaulted_dynamic_area('blogtextcon3',$blogtextcon3);
                ?>
 
@@ -478,7 +475,7 @@
                   <?php
             $blogtextcon4='  <h2>Jimmy Serrano</h2>
                 <h3>Never give up on your dream</h3>
-                <h4>30 Minutes of Motivation 11:30 AM to Noon </h4>';
+                <h4><!--30 Minutes of Motivation--> 11:30 AM to Noon </h4>';
                   echo $AI->get_defaulted_dynamic_area('blogtextcon4',$blogtextcon4);
                   ?>
 
@@ -499,7 +496,7 @@
                 <h3>SEO and Millennial Marketing</h3>
                 <h4 class="h4text1">
                    <span> Lunch and Exhibitor Hall Noon to 3:00PM</span>
-                    Second Keynote: 3:00 PM to 4:30 PM
+                   <!-- Second Keynote:--> 3:00 PM to 4:30 PM
                 </h4>';
                    echo $AI->get_defaulted_dynamic_area('blogtextcon5',$blogtextcon5);
                    ?>
@@ -519,7 +516,7 @@
             $blogtextcon6='<h2 class="h2text1">Expo Hall</h2>
 
                 <h4 class="h4text2">
-                    Meet the Exhibitors 4:30 PM to 5:00 PM
+                   <!-- Meet the Exhibitors--> 4:30 PM to 5:00 PM
 
                 </h4>';
                    echo $AI->get_defaulted_dynamic_area('blogtextcon6',$blogtextcon6);
@@ -561,12 +558,12 @@
  <?php
             $blogtextcon8='
                 <h4 class="h4text3">
-                    Open Exhibitor Hall 5:00 PM to 9:00 PM
+                   <!-- Open Exhibitor Hall--> 5:00 PM to 9:00 PM
 
                 </h4>
 
                 <h4 class="h4text3">
-                    Exhibitor Awards: 9:00 PM to 10:00 PM
+                 <!--   Exhibitor Awards:--> 9:00 PM to 10:00 PM
 
                 </h4>';
  echo $AI->get_defaulted_dynamic_area('blogtextcon8',$blogtextcon8);
@@ -610,7 +607,7 @@
             $blogtextcon9='
                 <h2>NIADA</h2>
                 <h3>Hosted by the NIADA</h3>
-                <h4>NIADA 20 Group Panel: 8:00 AM to 9:00 AM</h4>';
+                <h4><!--NIADA 20 Group Panel: -->8:00 AM to 9:00 AM</h4>';
                  echo $AI->get_defaulted_dynamic_area('blogtextcon9',$blogtextcon9);
                  ?>
             </div>
@@ -628,7 +625,7 @@
             $blogtextcon10='
                 <h2>Peter Bordes</h2>
                 <h3>Mastering the local market place</h3>
-                <h4>First Keynote: 9:00AM to 10:30 AM</h4>';
+                <h4><!--First Keynote:--> 9:00AM to 10:30 AM</h4>';
                    echo $AI->get_defaulted_dynamic_area('blogtextcon10',$blogtextcon10);
                    ?>
             </div>
@@ -645,7 +642,7 @@
                 <?php
             $blogtextcon11=' <h2>Hosted by</h2>
                 <h3> Mike Jackson and Beto Paredes</h3>
-                <h4>Local Marketing Workshop 10:30 AM to 11:30 AM</h4>';
+                <h4><!--Local Marketing Workshop--> 10:30 AM to 11:30 AM</h4>';
                 echo $AI->get_defaulted_dynamic_area('blogtextcon11',$blogtextcon11);
                 ?>
 
@@ -665,7 +662,7 @@
             $blogtextcon12='
                 <h2>George Dans</h2>
                 <h3>Turn your sales staff into influencers</h3>
-                <h4>30 Minutes of Motivation: 11:30 AM to Noon
+                <h4><!--30 Minutes of Motivation:--> 11:30 AM to Noon
                 </h4>';
                   echo $AI->get_defaulted_dynamic_area('blogtextcon12',$blogtextcon12);
                   ?>
@@ -686,7 +683,7 @@
                 <h3> Customer Feedback and Satisfaction</h3>
                 <h4 class="h4text1">
                     <span> Lunch and Exhibitor Hall Noon to 3:00PM</span>
-                    Second Keynote: 3:00 PM to 4:30 PM
+                    <!--Second Keynote: -->3:00 PM to 4:30 PM
                 </h4>';
                  echo $AI->get_defaulted_dynamic_area('blogtextcon13',$blogtextcon13);
                  ?>
@@ -707,7 +704,7 @@
                 <h2>Patrick Anderson</h2>
                 <h3>The Dealer Internet Department
                 </h3>
-                <h4>Focus Educational: 3:30 PM to 4:30 PM</h4> ';
+                <h4><!--Focus Educational:--> 3:30 PM to 4:30 PM</h4> ';
                  echo $AI->get_defaulted_dynamic_area('blogtextcon14',$blogtextcon14);
                  ?>
 
@@ -727,7 +724,7 @@
             $blogtextcon15=' <h2 class="h2text1">Expo Hall</h2>
 
                 <h4 class="h4text2">
-                    Meet the Exhibitors 4:30 PM to 5:00 PM  </h4> ';
+                   <!-- Meet the Exhibitors -->4:30 PM to 5:00 PM  </h4> ';
                    echo $AI->get_defaulted_dynamic_area('blogtextcon15',$blogtextcon15);
                    ?>
 
@@ -782,8 +779,7 @@
         <div class="conbanner1_textwrapper">
 
             <?php
-          $speakertext1='Our speaker line up in absolutely off the chain! The backgrounds of our speakers is diverse and absolutely top shelf for the theme of our show.
-            Please take some time to learn more about their backgrounds and subject matter.';
+          $speakertext1='Our speaker line-up is off the chain! The backgrounds of our speakers is diverse and they are absolutely top-shelf for the theme of our show. Please take some time to learn more about their backgrounds and subject matter.';
             echo $AI->get_defaulted_dynamic_area('speakertext1',$speakertext1);
             ?>
 
@@ -816,8 +812,7 @@ $conbanner2text1='our expo and Conference coming in September 2017 will be off t
     </div>
 
     <div class="conbanner2_text2"> <?php
-$conbanner2text2='This will be a full 3 day conference with over 120 vendors,<br/>
-        two major conference areas and packed full of lots of fun and education.';
+$conbanner2text2='This will be a full 3-Day Conference with over 120 vendors and two major conference areas packed full of fun and education.';
         echo $AI->get_defaulted_dynamic_area('conbanner2text2',$conbanner2text2);
         ?>
 

@@ -829,7 +829,7 @@ width: 584px;
 
 .hometextblock9 span{font-family:'OpenSans-Semibold'; text-transform: uppercase; font-size: 14px; color: #6e6e6e;}
 
-.hometextblock9 td div{ padding-bottom:22px;}
+.hometextblock9 td div{ padding-bottom:22px; min-height: 100px;}
 
 .block9mg5 img{ margin: 25px 0;}
 
@@ -996,7 +996,7 @@ width: 584px;
 
 
 
-.con_block1_top_righttext{ background: url("system/themes/marketplace/images/conference_textarrow.png") no-repeat left top; padding-left: 28px; margin-top: 100px; width: 930px; float: right;}
+.con_block1_top_righttext{ background: url("system/themes/marketplace/images/conference_textarrow.png") no-repeat left top; padding-left: 28px; margin-top: 104px; width: 930px; float: right;  }
 
 .con_block1_top_righttext .top_righttext1{ background: #059593; border-radius: 0 5px 5px 5px; padding: 25px; font-size: 36px; color: #ffffff; font-family: 'Roboto-Bold'; text-align: center; line-height: 48px; text-shadow: 0 0 8px #656565; text-transform: uppercase; -webkit-box-shadow: 0px 9px 15px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 9px 15px -6px rgba(0,0,0,0.75);
@@ -1051,9 +1051,9 @@ width: 584px;
     font-size: 48px;  color: #f9fbfb; text-shadow: 0 0 8px #656565; text-transform: uppercase;}
 
 
-.conblock4con{ background: url("system/themes/marketplace/images/dimg_bg.png") left top; padding: 30px 0;}
+.conblock4con{ background: url("system/themes/marketplace/images/dimg_bg.png") left top; padding: 30px 0; border-top: solid 1px #e2e2e2;}
 
-.conblock4con h2{ margin: 0; padding: 0px; text-align: center; font-size: 60px; color: #272217; font-family: "robotoblack";  text-shadow: 0 0 8px #656565; text-transform: uppercase;}
+.conblock4con h2{ margin: 0; padding: 0px; text-align: center; font-size: 60px; color: #272217; font-family: "robotoblack";   text-shadow: 0 2px 2px #888; text-transform: uppercase;}
 
 .conblock4con h3{ margin: 0; padding:30px  40px; text-align: center; font-size:24px; color: #292929; font-family: 'Roboto-Bold'; line-height: 30px;  }
 
@@ -1150,7 +1150,7 @@ width: 584px;
 
 .conblocknewcon_wrapper .con_newblock2{ display: block; margin: 0 auto;}
 
-.conblocknewcon_wrapper h2{ display: block; width: 588px; margin: 0 auto; background: #4e5a64; background: #4e5a64; border-radius: 5px; text-align: center; font-size: 48px; color: #e0d9d2; padding: 5px 4px 10px 4px; text-transform: uppercase; color: #d5d6d8; text-shadow: 0 1px 6px rgba(150, 150, 150, 1);  font-size: 48px; font-family: "robotoblack";}
+.conblocknewcon_wrapper h2{ display: block; width: 588px; margin: 0 auto; background: #4e5a64; background: #4e5a64; border-radius: 5px; text-align: center; font-size: 48px; color: #e0d9d2; padding: 5px 4px 10px 4px; text-transform: uppercase; color: #d5d6d8; text-shadow: 0 1px 0 #888;  font-size: 48px; font-family: "robotoblack";}
 
 
 .conblocknewcon_wrapper h3{ width:860px; margin: 30px auto; margin-bottom: 37px; text-align: center; font-size: 24px; color: #2b2c2c; line-height: 36px;   font-family: 'Roboto-Bold';}
@@ -1243,6 +1243,8 @@ width: 584px;
 
 
 
+
+
 .dealerstrengtmagazineblock .magazineimg{ border: solid 6px #fff; -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.63);
     -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.63);
     box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.63);}
@@ -1297,7 +1299,7 @@ width: 584px;
 
 .dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl label{ display: block; background:#ff6c00 url("system/themes/marketplace/images/dealerstrengthezineinputbg1.png") no-repeat  right top; height: 50px; float: left; width: 118px; border-radius: 4px 0 0 4px;  line-height: 50px; padding: 0 10px; font-size: 16px; color: #ffffff; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
 
-.dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl .form-control{ display: block; width: 302px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+.dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl .form-control{ display: block; width: 302px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc!important; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
 
 
 .delsubmit{ float: right!important; margin: 0 16px 0 0!important;  background: url("system/themes/marketplace/images/subbtn1.png")  left top!important; display: block!important; width: 272px!important; height: 107px!important; font-size: 38px!important; color: #ffffff!important; font-family: 'Roboto-Bold'!important;  text-transform: uppercase!important; border: none!important; cursor:pointer!important;
@@ -1373,7 +1375,7 @@ width: 584px;
 
 .allvideoblock .allvideobox .videoplay{ left: 37%;
     position: absolute;
-    top: 28%;
+    top: 33%!important;
     width: 26%; }
 
 
@@ -1387,7 +1389,9 @@ width: 584px;
 
 .allvideoblock table td{  padding: 10px; background: #b1c5cc; color: #fff;     font-family: 'robotomedium'; font-size: 14px; width: 50%;}
 
+.allvideoblock td h3{ margin: 0px; padding: 1px 0 0 0; border:none; font-size: 16px; color: #fff;}
 
+.allvideoblock td h3 a{ color: #fff!important;}
 
 .mediaroom_block3{background: url("system/themes/marketplace/images/mediaroom_con2bg.jpg") left top; text-align: center; padding:30px;}
 
@@ -1413,8 +1417,197 @@ width: 584px;
 
 .form-groupd2 label{ display: block; background:#ff6c00 url("system/themes/marketplace/images/dealerstrengthezineinputbg1.png") no-repeat  right top; height: 50px; float: left; width: 118px; border-radius: 4px 0 0 4px;  line-height: 50px; padding: 0 10px; font-size: 16px; color: #ffffff; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
 
- .form-groupd2 .form-control{ display: block; width: 492px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+ .form-groupd2 .form-control{ display: block; width: 492px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc!important; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
 
 
 .delsubmit2{  margin: 0 auto!important;  background: url("system/themes/marketplace/images/subbtn1.png")  left top!important; display: block!important; width: 272px!important; height: 107px!important; font-size: 38px!important; color: #ffffff!important; font-family: 'Roboto-Bold'!important;  text-transform: uppercase!important; border: none!important; cursor:pointer!important;
     letter-spacing: 4px!important; text-shadow: 0 0 4px #888!important; text-align: center!important; padding: 0px 0 0 0!important; border: none!important; box-shadow: none!important;}
+
+
+.mediadetailbody{ background: #e0eaeb; }
+.mediadetail_block3{ width: 1660px; margin: 0px auto; padding: 30px 0; }
+
+.mediadetail_block3 .mediadetail_block3_left{ width: 1020px; float: left;}
+
+.mediadetail_block3 .mediadetail_block3_right{ width: 620px; float: right;}
+
+
+.videodetailblock1{ background: #fff; margin-bottom: 10px;}
+
+.videodetailblock1 h2{ font-size: 24px; color: #2a2a2a; font-family: 'Roboto'; margin: 0px; padding:20px 25px 25px 25px;}
+
+
+.videodetailblock2{ background: #fff; margin-bottom: 10px; padding: 25px;}
+
+.videodetailblock2 h2{ margin: 0; padding: 0; font-size: 18px; color: #4d4d4d; font-family: 'Roboto';}
+
+.videodetailblock2 h3{ margin: 0; padding: 19px 0 0 0; font-size: 14px; color: #939393; font-family: 'Roboto'; line-height: 24px;}
+
+
+.videodetailblock3{ background: #fff;  padding: 25px;}
+
+
+.detailblock3_top{ width: 100%;}
+
+.detailblock3_top .detailblock3_top_img{ width: 87px; float: left; border: solid 3px #dadada;}
+
+.detailblock3_top .detailblock3_top_img img{ width: 100%;}
+
+.detailblock3_top_con{ width: 860px; float: right; border-bottom: solid 1px #e3eaed; min-height: 102px; padding-bottom: 10px;}
+
+.detailblock3_top_con h2{ margin: 0; padding: 0; width: 530px; float: left; font-size: 30px; color: #ff6c00; font-family: 'Roboto';}
+
+.detailblock3_top_con h2 span{ display: block; padding-top: 10px; font-size: 18px; line-height: 22px; color: #2681bb;}
+
+
+.detailblock3_top_con label{ width: 180px; float: right; text-align: right; font-size: 14px; color: #bcbcbc; font-family: 'Roboto'; font-weight: normal;}
+
+
+.detailblock3_bottom{ padding-top:18px; font-size: 14px; color: #444444; font-family: 'Roboto'; line-height: 24px;}
+
+
+.detailblock3_bottom .detailblock3_bottom_img{ border-top: solid 1px #e3eaed; margin-top: 22px; padding-top: 25px;}
+
+.detailblock3_bottom .detailblock3_bottom_img img{ margin-right: 12px; margin-bottom: 12px;}
+
+
+.mediadetail_block3_right .allvideoblock2{ margin-bottom: 25px;}
+
+
+.mediadetail_block3_right .allvideoblock2 .allvideobox2{ width: 100%; position: relative;}
+
+.mediadetail_block3_right .allvideoblock2 .allvideobox2 .videoimg2{ width: 100%;}
+
+
+.mediadetail_block3_right .allvideoblock2 .allvideobox2  .videoplay2{ left: 42%;
+    position: absolute;
+    top: 37%;
+    width: 16%; cursor: pointer; }
+
+.allvideoblock2 table{ background: #b1c5cc;}
+
+.allvideoblock2 table td{ padding:12px 10px 15px 10px; font-size: 18px; color: #2b2b2b;  font-family: 'Roboto';  line-height: 30px;}
+
+.allvideoblock2 table td a{ color:#2b2b2b; text-decoration: none;}
+
+.allvideoblock2 table td span{ font-size: 14px; color: #505050;  }
+
+
+
+
+
+.bannertextblock4{ width:730px;   }
+
+.bannertextblock4 h1{ width:100%;  text-align: center; font-size: 48px; color: #ffd200; text-transform: uppercase; font-family: 'Roboto-Bold'; line-height: 60px; margin: 12px 0 0 0; padding: 0px;   text-shadow: 0 0 8px #656565; }
+
+.bannertextblock4 h1 span{ color: #fedc3c!important; font-size: 68px!important; display: block;}
+
+.bannertextblock4 .text2btn{ width: 408px; display: block; margin: 5px auto; height: 74px; box-shadow: 0 0 8px #656565; background: #ff5400; text-align: center; line-height: 72px; font-size: 44px; color: #ffffff;  text-shadow: 0 0 8px #656565; font-family: 'Roboto-Bold'; border-radius: 6px; text-transform: uppercase;}
+
+.conference_banner_text .bannertextblock3{ width: 910px; float: left;}
+
+.conference_banner_text .bannertextblock3 h2{ margin: 0; padding: 0; text-align: center; font-size: 48px; color: #ffffff; text-transform: uppercase;   font-family: 'robotoblack'; line-height: 50px; text-shadow: 0 0 8px #656565;}
+
+.conference_banner_text .bannertextblock3 h3{ margin: 40px 0 0 0; padding: 0; text-align: center; font-size: 24px; color: #ffffff;    font-family:'OpenSans-Semibold'; line-height: 30px; }
+
+
+.conference_banner_text .bannertextblock3 h6{ padding: 0;  font-size: 30px; color: #252525; text-transform: uppercase;    font-family: 'robotobold'; line-height: 40px; margin: 0px 0 8px 5%; }
+
+.conference_banner_text .bannertextblock3 .mediaroombannerimg2{ display: block; margin: 0 0 0 4.8%;}
+
+.conference_banner_text .bannertextblock3 .mediaroombannerimg2 img{ max-width: 100%;}
+
+
+.conference_block2{ background: #dedede; padding-top: 2px;}
+
+.h6textdiv{ background: #8d8d8d;}
+.conference_block2  h6{ text-align: center; font-size: 70px; text-align: center; font-family: 'robotobold'; display: block; margin: 0 auto; padding: 17px 5px 20px 5px; }
+
+.conference_block2  h6 span{ padding-left: 40px;}
+
+
+.sponsorshipslogowrapper{ background: #dedede;  width: 1806px; margin: 50px auto;}
+
+.sponsorshipslogowrapper .sponsorshipslogo{  width: 600px; height: 600px; float: left; margin: 0 1px ;  }
+
+.sponsorshipslogowrapper .sponsorshipslogo table{ width: 100%; height: 100%;}
+
+.sponsorshipslogowrapper .sponsorshipslogo table td{ display: table-cell; text-align: center; vertical-align: middle;}
+
+
+.contactformwrapper{ background: url("system/themes/marketplace/images/contactformbg.jpg") no-repeat  right  bottom!important;  min-height: 812px; padding-left: 148px!important;}
+
+
+.contactformwrapper .contactform_div1{ margin: 28px 0 0 0; background: url("system/themes/marketplace/images/contactarrow.png")  no-repeat left bottom!important; padding-bottom: 36px; }
+
+
+.contactformwrapper .contactform_div1 h2{ width: 554px; text-align: center; padding:20px 4px 25px 4px; text-align: center; background: #059593; border-radius: 6px; font-size: 70px; color: #ffffff; font-family: 'robotobold';}
+
+
+.contactform_div2{ margin-top: 5px;}
+
+.contactform_div2 h4{ margin:0 0 12px 0; display: block; padding: 0 0 0 0px; font-size: 30px; color: #2d2d2d; text-transform: uppercase; font-family: 'robotobold';}
+
+.contactform_div2 span{ display: inline-block; padding-right: 50px; font-size: 18px; color: #535151;  font-family: 'Roboto';}
+
+.contactform_div2 span a{ color: #535151; text-decoration: none;}
+
+
+.contactform_div3{ width: 900px; margin-top: 12px;}
+
+
+
+.form-groupd3{ width: 100%;   display: block; margin: 0 auto; margin-top: 20px;}
+
+.form-groupd3 label{ display: block; background:#ff6c00 url("system/themes/marketplace/images/dealerstrengthezineinputbg1.png") no-repeat  right top; height: 50px; float: left; width: 118px; border-radius: 4px 0 0 4px;  line-height: 50px; padding: 0 10px; font-size: 16px; color: #ffffff; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
+
+.form-groupd3 .form-control{ display: block; width: 782px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc!important; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+
+.delsubmit3 {
+    background: rgba(0, 0, 0, 0) url("system/themes/marketplace/images/subbtn1.png") repeat scroll left top !important;
+    border: medium none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    display: block !important;
+    font-family: "Roboto-Bold" !important;
+    font-size: 38px !important;
+    height: 107px !important;
+    letter-spacing: 4px !important;
+    margin: 25px 0  !important;
+    padding: 0 !important;
+    text-align: center !important;
+    text-shadow: 0 0 4px #888 !important;
+    text-transform: uppercase !important;
+    width: 272px !important; float: right;
+}
+
+.formcontroltextarea{border-radius: 6px; background: #d5d5d5; border: solid 1px #bcbcbc!important; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;
+
+    box-shadow: none!important; width: 100%; height: 120px; resize: none; }
+
+
+
+.formcontroltextarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000; opacity: 10;
+}
+.formcontroltextarea::-moz-placeholder { /* Firefox 19+ */
+    color: #000; opacity: 10;
+}
+.formcontroltextarea:-ms-input-placeholder { /* IE 10+ */
+    color: #000; opacity: 10;
+}
+.formcontroltextarea:-moz-placeholder { /* Firefox 18- */
+    color: #000; opacity: 10;
+}
+
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{    background-color: #ff6c00;
+    border-color: #ff6c00; color: #fff!important;}
+
+
+
+.pagination > li > a, .pagination > li > span{color: #ff6c00!important;}
+
+.pagination > li > a{color: #ff6c00!important;}
+

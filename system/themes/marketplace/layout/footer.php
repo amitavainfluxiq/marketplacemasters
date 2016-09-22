@@ -650,3 +650,215 @@ echo $AI->get_defaulted_dynamic_area('$myModal8text3',$myModal8text3);?>
 
     </div>
 </div>
+
+
+
+
+<div id="getPasses" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content newmodalpopup">
+
+           <div class="closecon"><button type="button" class="close" data-dismiss="modal">&times;</button></div>
+
+            <div class="modal-body">
+                <img src="system/themes/marketplace/images/popuplogo2.png" alt="#" >
+                 <h2>Passes will be available starting October 15th, 2017</h2>
+
+                <h3>Please fill this out to be informed the minute this goes live!</h3>
+
+                <div class="contactform_divpopup">
+
+                    <div class="form-groupd4">
+                        <label>First name:</label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+                    <div class="form-groupd4">
+                        <label>Last name:</label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <div class="form-groupd4">
+                        <label>Company: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+                    <div class="form-groupd4">
+                        <label>eMail: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <div class="form-groupd4">
+                        <label>Phone: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <input class="delsubmit4" type="submit" value="Submit">
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="exhibitors" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content newmodalpopup">
+
+            <div class="closecon"><button type="button" class="close" data-dismiss="modal">&times;</button></div>
+
+            <div class="modal-body">
+                <img src="system/themes/marketplace/images/popuplogo2.png" alt="#" >
+                <h2>You will be able to get in early and pick
+                    your booth space starting October 15th, 2017!
+                </h2>
+
+                <h3>Please fill this out to be informed the minute this goes live!</h3>
+
+                <div class="contactform_divpopup">
+
+                    <div class="form-groupd4">
+                        <label>First name:</label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+                    <div class="form-groupd4">
+                        <label>Last name:</label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <div class="form-groupd4">
+                        <label>Company: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+                    <div class="form-groupd4">
+                        <label>eMail: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <div class="form-groupd4">
+                        <label>Phone: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <input class="delsubmit4" type="submit" value="Submit">
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="tanda" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content newmodalpopup">
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+            <div class="modal-body">
+                <img src="system/themes/marketplace/images/popuplogo2.png" alt="#" >
+                <h2>Information for Travel and Accommodations to our
+                    Expo will be live and available October 15th, 2017.
+
+                </h2>
+
+                <h3>Please fill this out to be informed the minute this goes live!
+                </h3>
+
+                <div class="contactform_divpopup">
+
+                    <div class="form-groupd4">
+                        <label>First name:</label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+                    <div class="form-groupd4">
+                        <label>Last name:</label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <div class="form-groupd4">
+                        <label>Company: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+                    <div class="form-groupd4">
+                        <label>eMail: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <div class="form-groupd4">
+                        <label>Phone: </label>
+                        <input class="form-control" type="text">
+                        <div class="clearfix"></div>
+                    </div>
+
+
+
+                    <input class="delsubmit4" type="submit" value="Submit">
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
