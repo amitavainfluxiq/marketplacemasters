@@ -242,7 +242,7 @@
     .mediaroom_videoblock { width: 1360px; }
 
     .mediaroom_videoblock .mediaroom_videoblock_top .mediaroom_topvideo_left{ width: 576px;  }
-    .mediaroom_topvideo_right{ width: 750px;  }
+    .mediaroom_topvideo_right{ width: 750px;   min-height: 350px; }
 
 
 
@@ -647,17 +647,17 @@
     .block6btnwrapper{ width:1176px;   }
 
     .block6btnwrapper .block6btn1{background-size: 430px;  width: 430px;  height: 121px;}
-    .block6btnwrapper .block6btn1 img {display: inline-block; margin-left: 54px;}
+    .block6btnwrapper .block6btn1 img {display: inline-block; margin-left: 54px; margin-top: 5px;}
     .block6btnwrapper .block6btn1 span{padding: 20px 0 0;
         font-size: 19px;
         line-height: 80px;}
     .block6btnwrapper .block6btn2{background-size: 430px; width: 430px;   height: 121px;}
-    .block6btnwrapper .block6btn1 img {display: inline-block; margin-left:54px;}
+    .block6btnwrapper .block6btn1 img {display: inline-block; margin-left:54px; margin-top: 5px;}
     .block6btnwrapper .block6btn2 span{padding: 20px 0 0;
         font-size: 19px;
         line-height: 80px;}
     .block6btnwrapper .block6btn3{background-size: 430px;  width: 430px;  height: 121px;}
-    .block6btnwrapper .block6btn1 img {display: inline-block; margin-left: 54px;}
+    .block6btnwrapper .block6btn1 img {display: inline-block; margin-left: 54px; margin-top: 5px;}
     .block6btnwrapper .block6btn3 span{padding: 20px 0 0;
         font-size: 19px;
         line-height: 80px;}
@@ -1294,7 +1294,7 @@
     .mediaroom_videoblock { width: 90%; }
 
     .mediaroom_videoblock .mediaroom_videoblock_top .mediaroom_topvideo_left{ width: 100%; float: none;  }
-    .mediaroom_topvideo_right{ text-align:center;  width: 100%; float: none; margin: 0 auto; margin-top: 30px; padding: 30px 0 0 0;border-left: none;  border-top: solid 1px #b6bebf;  }
+    .mediaroom_topvideo_right{ text-align:center; min-height: inherit;  width: 100%; float: none; margin: 0 auto; margin-top: 30px; padding: 30px 0 0 0;border-left: none;  border-top: solid 1px #b6bebf;  }
 
     .videodevider{ margin: 30px 0;}
 
@@ -1983,7 +1983,7 @@
         bottom: 0;
         display: block;
         margin: 20px auto;
-        text-align: center;}
+        text-align: left; background-position: 180px 15px; padding-top: 8px;}
     .block11con:first-of-type .block11con_text h2 {
         margin: 0;
         padding: 0;
@@ -2026,7 +2026,7 @@
     .hometextblock11-wrapper .block11con:first-of-type .block11con_text a {
         position: inherit;
         width: 215px;
-        background-position: 193px center;
+        background-position: 193px 18px;
     }
 
 
@@ -2285,36 +2285,36 @@
         height: 116px;
     }
     .block6btnwrapper .block6btn1 img {
-        width: 40px;
+        width: 74px; margin-top: -9px;
         height: auto;
     }
     .block6btnwrapper .block6btn2 img {
-        width: 40px;
+        width: 74px; margin-top: -9px;
         height: auto;
     }
     .block6btnwrapper .block6btn3 img {
-        width: 40px;
+        width: 74px; margin-top: -9px;
         height: auto;
     }
     .block6btnwrapper .block6btn1 span {
-        padding: 20px 0 0;
+        padding: 30px 0 0;
         font-size: 19px;
         line-height: 58px;
     }
     .block6btnwrapper .block6btn2 span {
-        padding: 20px 0 0;
+        padding: 30px 0 0;
         font-size: 19px;
         line-height: 58px;
     }
     .block6btnwrapper .block6btn3 span {
-        padding: 20px 0 0;
+        padding: 30px 0 0;
         font-size: 19px;
         line-height: 58px;
     }
-    .hometextblock11-wrapper .block11con:first-of-type .block11con_text a{
-        width: 90%;
-        background-position: 167px center;
-    }
+      {background-position: 180px 18px;
+    width: 200px;
+    padding-left: 11px;
+}
     .homebannerblock .bannercontentblock img {
         width: 80%;
         max-width: inherit;
@@ -2393,67 +2393,63 @@
     }
 
     .block6btnwrapper .block6btn1 {
-        background-size: 315px;
+        background-size: 312px;
         width: 310px;
         height: 110px;
         margin: 0 auto !important;
     }
     .block6btnwrapper .block6btn2 {
-        background-size: 315px;
+        background-size: 312px;
         width: 310px;
         height: 110px;
         margin: 0 auto !important;
     }
     .block6btnwrapper .block6btn3 {
-        background-size: 315px;
+        background-size: 312px;
         width: 310px;
         height: 110px;
         margin: 0 auto !important;
     }
     .block6btnwrapper .block6btn1 span {
-        padding: 20px 0 0;
+        padding: 14px 0 0;
         font-size: 19px;
         line-height: 60px;
     }
     .block6btnwrapper .block6btn2 span {
-        padding: 20px 0 0;
+        padding: 14px 0 0;
         font-size: 19px;
         line-height: 60px;
     }
     .block6btnwrapper .block6btn3 span {
-        padding: 20px 0 0;
+        padding:14px 0 0;
         font-size: 19px;
         line-height: 60px;
     }
     .block6btnwrapper .block6btn1 img {
         display: inline-block;
         margin-left: 24px;
-        margin-top: -12px;
+        margin-top: -4px;
         width: 60px;
         height: auto;
     }
     .block6btnwrapper .block6btn3 img {
         display: inline-block;
         margin-left: 24px;
-        margin-top: -12px;
+        margin-top: -4px;
         width: 60px;
         height: auto;
     }
     .block6btnwrapper .block6btn2 img {
         display: inline-block;
         margin-left: 24px;
-        margin-top: -12px;
+        margin-top: -4px;
         width: 60px;
         height: auto;
     }
     .hometextblock7 .block7_left h2 {
         font-size: 45px;
     }
-    .hometextblock11-wrapper .block11con:first-of-type .block11con_text a {
-        width: 210px;
-        background-position: 190px center;
-        font-size: 22px;
-    }
+
     .block6btnwrapper .block6btn3 span{margin-left: 2px !important; }
 }
 
@@ -3007,13 +3003,15 @@
 }
 
 @media(max-width:767px){
-
+    .hometextblock6 .hometextblock6-wrapper h2{ padding-left: 10px; padding-right: 10px;}
     .mediaroom_formblockcon{ width: 90%; margin: 40px auto;}
 
     .mediaroom_formblockdiv{ width: 100%!important; margin: 0 auto;}
 
     .form-groupd2{ width: 420px;   display: block; margin: 0 auto; margin-bottom: 20px;}
     .form-groupd2 .form-control{ display: block; width: 302px;}
+
+    .modal-content{ left: 3%;}
 }
 
 
@@ -3157,6 +3155,14 @@
 @media(max-width:700px){
 
     .contactformwrapper{ width: 90%; margin: 0 auto!important;}
+
+    .contactform_divpopup{ width: 98%; margin: 0px auto;}
+    .form-groupd4{ width: 100%;}
+    .form-groupd4 label{ display: block; background:none; height:auto; padding: 0 0px 10px 0; float: none; width: 100%; border-radius:0;  line-height: inherit; padding: 0 0px; font-size: 16px; color: #ff6c00; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
+
+    .form-groupd4 .form-control{ display: block; width: 100%; float: none; margin: 0; height: 41px; border-radius:0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+
+
 }
 
 
@@ -3191,4 +3197,66 @@
     .conference_block2 h6 span{ padding-left: 0px;}
 
     .contactform_div2 span{ margin: 8px;}
+}
+
+
+
+
+@media(max-width:1199px){
+
+.block6btnwrapper .block6btn1 {
+    background-size: 312px;
+    width: 310px;
+    height: 110px;
+    margin: 0 auto !important;
+}
+.block6btnwrapper .block6btn2 {
+    background-size: 312px;
+    width: 310px;
+    height: 110px;
+    margin: 0 auto !important;
+}
+.block6btnwrapper .block6btn3 {
+    background-size: 312px;
+    width: 310px;
+    height: 110px;
+    margin: 0 auto !important;
+}
+.block6btnwrapper .block6btn1 span {
+    padding:14px 0 0 0!important;
+    font-size: 19px;   margin: 0 0 0 5px;
+    line-height: 60px;
+}
+.block6btnwrapper .block6btn2 span {
+    padding:14px 0 0 0!important;
+    font-size: 19px;  margin: 0 0 0 5px;
+    line-height: 60px;
+}
+.block6btnwrapper .block6btn3 span {
+    padding:14px 0 0 0!important;
+    font-size: 19px;   margin: 0 0 0 5px;
+    line-height: 60px;
+}
+.block6btnwrapper .block6btn1 img {
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 6px;
+    width: 54px;
+    height: auto;
+}
+.block6btnwrapper .block6btn3 img {
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: -4px;
+    width: 60px;
+    height: auto;
+}
+.block6btnwrapper .block6btn2 img {
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: -4px;
+    width: 60px;
+    height: auto;
+}
+
 }

@@ -743,7 +743,7 @@ width: 584px;
     margin-right: 10px;
 }
 .hometextblock11-wrapper .block11con:first-of-type .block11con_text h4{ font-size: 30px ;color: #fff; font-family:'SegoeUISymbol'; line-height: 30px; margin: 0; padding: 0 20px 0 16px;}
-.hometextblock11-wrapper .block11con:first-of-type .block11con_text a{  background:#fffc00 url("system/themes/marketplace/images/block8_btnarrowblack.png")no-repeat ; width: 259px; height: 51px; position: absolute; right:16px; bottom: 16px; border-radius: 6px; background-position: 215px center; font-family:"SegoeUISymbol"; font-size: 24px; color: #000; text-transform: uppercase; padding: 7px 0 0 30px; text-align: left; }
+.hometextblock11-wrapper .block11con:first-of-type .block11con_text a{  background:#fffc00 url("system/themes/marketplace/images/block8_btnarrowblack.png")no-repeat ; width: 259px; height: 51px; position: absolute; right:16px; bottom: 16px; border-radius: 6px; background-position: 215px 18px; font-family:"SegoeUISymbol"; font-size: 24px; color: #000; text-transform: uppercase; padding: 7px 0 0 30px; text-align: left; }
 
 
 
@@ -1310,19 +1310,6 @@ width: 584px;
 
 
 
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-}
-.videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 
 .mediaroom_videoblock{ width: 1660px; margin: 50px auto; margin-bottom: 0px;}
@@ -1335,7 +1322,7 @@ width: 584px;
 .mainvideo{background: #059593; }
 
 
-.mediaroom_topvideo_right{ width: 900px; float: right; border-left: solid 1px #b6bebf;  padding-left: 30px; margin-left: 30px; }
+.mediaroom_topvideo_right{ width: 900px; float: right; border-left: solid 1px #b6bebf;  padding-left: 30px; margin-left: 30px; min-height: 410px; }
 
 .mediaroom_topvideo_right h2{ margin: 0; padding:0 0 12px 0; font-size: 24px; color: #2a2a2a;   font-family: 'Roboto';}
 
@@ -1387,7 +1374,10 @@ width: 584px;
 
 .allvideoblock h3{ margin: 10px 0 0 0; padding:14px 0 15px 0; font-size: 18px; color: #1384af; line-height: 18px; font-family: 'Roboto';  border-top: solid 1px #b6bebf;}
 
-.allvideoblock table td{  padding: 10px; background: #b1c5cc; color: #fff;     font-family: 'robotomedium'; font-size: 14px; width: 50%;}
+.allvideoblock table td{  padding: 10px; background: #b1c5cc; color: #fff;     font-family: 'robotomedium'; font-size: 14px; width: 63%;}
+
+.allvideoblock table tr td:last-of-type{width: 35%;}
+
 
 .allvideoblock td h3{ margin: 0px; padding: 1px 0 0 0; border:none; font-size: 16px; color: #fff;}
 
@@ -1611,3 +1601,103 @@ width: 584px;
 
 .pagination > li > a{color: #ff6c00!important;}
 
+
+
+.closenewpopup{background:url("system/themes/marketplace/images/popupnewbox.png") no-repeat  right top; width: 126px; height: 121px; position: absolute;  right: -26px;
+    top: -28px; z-index: 9;}
+
+.closenewpopup button{ display: block!important; overflow: hidden; background:#ff6c00 url("system/themes/marketplace/images/popupnewclose.png") no-repeat  right top!important; width: 39px; height: 39px; margin: 47px 42px 0 0; border: none; box-shadow: none; cursor: pointer; }
+
+.newmodalpopup{ background: #fafefe; border: solid 12px #ff6c00; border-radius: 8px!important; padding: 5px!important; margin: 0px; width: 100%; position: relative;}
+
+.newmodalpopup .popuplogo2{ display: block; margin: 0 auto; margin-top: 6px;}
+
+
+.newmodalpopup .popuplogo2{ display: block; margin: 0 auto; max-width: 100%;
+
+
+
+
+
+
+
+
+
+}
+
+.newmodalpopup h2{ text-transform: uppercase; font-size: 22px; color: #282727; text-align: center; line-height: 26px;  font-family: "Roboto-Bold" !important; padding: 13px 0 10px 0; margin: 0px;}
+
+.newmodalpopup h3{ text-transform: uppercase; font-size: 18px; color: #ff6c00; text-align: center; line-height:22px;  font-family: "Roboto-Bold" !important; padding:  0; margin: 0px;}
+
+
+
+.contactform_divpopup{ width: 600px; margin: 0px auto;}
+
+
+
+.form-groupd4{ width: 100%;   display: block; margin: 0 auto; margin-top: 16px;}
+
+.form-groupd4 label{ display: block; background:#ff6c00 url("system/themes/marketplace/images/dealerstrengthezineinputbg1.png") no-repeat  right top; height: 50px; float: left; width: 118px; border-radius: 4px 0 0 4px;  line-height: 50px; padding: 0 10px; font-size: 16px; color: #ffffff; text-transform: uppercase; font-family: 'Roboto'; font-weight: normal;}
+
+.form-groupd4 .form-control{ display: block; width: 484px; float: left; margin: 4px 0 0 -4px; height: 41px; border-radius: 0 6px 6px 0; background: #d5d5d5; border: solid 1px #bcbcbc!important; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
+
+.delsubmit4 {
+    background: rgba(0, 0, 0, 0) url("system/themes/marketplace/images/subbtn1.png") repeat scroll left top !important;
+    border: medium none !important;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    display: block !important;
+    font-family: "Roboto-Bold" !important;
+    font-size: 38px !important;
+    height: 107px !important;
+    letter-spacing: 4px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    text-align: center !important;
+    text-shadow: 0 0 4px #888 !important;
+    text-transform: uppercase !important;
+    width: 272px !important; margin-top: 15px!important;
+}
+
+
+.menutopwrap a:visited,a:focus{ color: #fff!important;}
+
+/*-----------------------video---------------------*/
+
+.mainvideo1{
+    border:1px solid #f5f5f5;
+    background-color: #000;
+}
+.videocontainerdiv {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:0px;
+    height:0;
+    overflow:hidden;
+}
+
+.videocontainerdiv iframe, .video-container object, .videocontainerdiv embed, .videocontainerdiv video {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+
+
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe, .videoWrapper object, .videoWrapper embed, .videoWrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
