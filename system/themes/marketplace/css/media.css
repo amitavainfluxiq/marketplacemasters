@@ -11,6 +11,22 @@
         float: right;
         margin-right: -3%;
     }
+    .aboutus_block_wrapper {
+        width: 90%;
+        margin: 30px auto !important;
+    }
+    .aboutus_block_wrapper .aboutus_block1_box2 img {
+        width: 100%;
+    }
+
+    .aboutus_block_wrapper .aboutus_block2_box2 img {
+        width: 100%;
+    }
+
+    .aboutus_block3_wrapper {
+        width: 96%;
+        margin: 30px auto !important;
+    }
 }
 
 @media(max-width:1860px) {
@@ -29,6 +45,17 @@
         width: 960px;
     }
 
+   /* .aboutus_block3_transparent {
+        background: rgba(0,0,0, 0.8);
+        left: 50%;
+        top: 0;
+        position: absolute;
+        height: 100%;
+    }*/
+
+
+
+
 }
 @media(max-width:1820px) {
     .homebannerblock .bannercontent h3 {
@@ -46,6 +73,7 @@
 
         width: 710px;
     }
+
 }
 @media(max-width:1760px){
     .hometextblock5 .hometextblock5-wrapper h2 {
@@ -125,6 +153,11 @@
 
 
 @media(max-width:1680px){
+    .topblok_wrapper .toplogo {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
     .hometextblock5 .hometextblock5-wrapper h2 {
         max-width: 890px;
         margin-left: 0px;
@@ -272,6 +305,21 @@
 
     .conference_conblock2 .con_block2_wrapper .con2righttext h2{font-size: 30px;
         line-height: 40px;}
+
+    .getpass_block_wrapper { width: 96%; margin: 0 auto; }
+
+    .ta_block_wrapper { width: 96%; margin: 0 auto; }
+    .ta_block1_singleimg img {
+        height: 100%;
+        width: auto;
+    }
+    .ta_block1 h2 {
+        font-size: 50px;
+    }
+    .ta_block4_wrapper { width: 96%; margin: 0 auto; }
+
+    .ta_block5_wrapper { width: 96%; margin: 0 auto; }
+    .ta_block6_wrapper{width: 96%; margin: 0 auto;}
 }
 
 
@@ -300,11 +348,32 @@
         font-size: 22px;
     }
 
+    .aboutus_block3 {
+        background: url(system/themes/marketplace/images/aboutusblock3_bg.jpg) no-repeat left -435px center scroll;
+    }
+
+
 }
 
 @media(max-width:1680px){
     .hometextblock10:before {
         margin-top: -69px;
+    }
+    .conference_banner .conference_banner_img img {
+        margin-left: 24%;
+    }
+
+    .aboutus_block_wrapper .aboutus_block1_box1 {
+        padding: 15px;
+    }
+    .aboutus_block_wrapper .aboutus_block2_box1 {
+        padding: 15px;
+    }
+    .aboutus_block2_box1_txt {
+        padding-left: 0px;
+    }
+    .btnaboutpurple, .btnaboutpurple:hover {
+        margin-left: 32% !important;
     }
 }
 
@@ -384,6 +453,9 @@
    margin-left: 76px;
         width: 500px;
     }
+    .btnaboutpurple, .btnaboutpurple:hover {
+        margin-left: 32% !important;
+    }
 }
 
 
@@ -419,8 +491,8 @@
         margin-left: -36px;
     }
     .topblok_wrapper .toplogo {
-        margin-left: 115px;
-        margin-right: 115px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
     .homebannerblock .bannercontent h4{margin-bottom: 8px;}
     .homebannerblock .bannercontent h3{margin-bottom: 8px;}
@@ -457,6 +529,20 @@
         font-size: 23px;
     }
 
+    .getpass_block1 h2 {
+        font-size: 50px;
+    }
+
+    .aboutus_block_wrapper .aboutus_block2_box2 img {
+        width: auto;
+    }
+    .btnaboutpurple, .btnaboutpurple:hover {
+        margin-left: 32% !important;
+    }
+    .aboutus_block3_boxright h3 {
+        font-size: 29px;
+        line-height: 30px;
+    }
 }
 
 @media(max-width:1599px) {
@@ -496,9 +582,19 @@
         width: 50%;
         margin-bottom: 28px;
     }
-
+    .btnaboutpurple, .btnaboutpurple:hover {
+        margin-left: 32% !important;
+    }
 }
 @media(max-width:1560px){
+    .aboutus_block2 .aboutus_block2_box1 ul {
+        padding-left: 5%;
+    }
+    .topblok_wrapper .toplogo {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
     .hometextblock5 .hometextblock5-wrapper h4 {
         margin-left: 0px;
     }
@@ -517,6 +613,21 @@
     .hometextblock4 .hometextblock4-wrapper h3 {
         margin: 0px 0 0px 12px;
     }
+    .ta_block1 h2 {
+        font-size: 46px;
+    }
+
+    .aboutus_block_wrapper .aboutus_block2_box1 {
+        height: 450px;
+    }
+
+    .aboutus_block_wrapper .aboutus_block2_box2 {
+        height: 450px;
+    }
+    .aboutus_block_wrapper .aboutus_block2_box2 img {
+        width: auto;
+    }
+
 }
 
 @media (max-width: 1540px){
@@ -557,12 +668,14 @@
     .bannertextblock2 .text2btn{ width: 290px;  font-size: 30px;}
 
 
-
-
 }
 
 
 @media(max-width:1520px){
+
+    .ta_block1 h2 {
+        font-size: 44px;
+    }
 
     .footerblock .footertop{ width: 100%; }
 
@@ -706,8 +819,23 @@
 
         width: 720px;
     }
-
-
+    .aboutus_block1_box1 h3 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .aboutus_block1_box1 h2 {
+        font-size: 48px;
+        line-height: 48px;
+        padding-bottom: 0px;
+    }
+    .aboutus_block1_box1 h4 {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0 0 5px 0px;
+    }
+    .btnaboutpurple, .btnaboutpurple:hover {
+        margin-left: 29% !important;
+    }
 }
 
 @media(max-width:1500px) {
@@ -723,10 +851,19 @@
 
 
 @media (max-width: 1480px) {
+    .aboutus_block3_boxright h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
     .imgbgright {
         position: relative;
         float: right;
         margin-right: -30% !important;
+    }
+
+    .topblok_wrapper .toplogo {
+        margin-left: 75px;
+        margin-right: 75px;
     }
 
 }
@@ -773,10 +910,10 @@
         width: 133%;
         margin-left: -36px;
     }
-    .topblok_wrapper .toplogo {
+   /* .topblok_wrapper .toplogo {
         margin-left: 105px;
         margin-right: 105px;
-    }
+    }*/
     .homebannerblock .bannercontent h4 {
         width: 43%;
         font-size: 26px;
@@ -834,10 +971,43 @@
         line-height: 20px;
         padding: 16px 6px;
     }
+    .ta_block1 h2 {
+        font-size: 42px;
+    }
+    .topblok_wrapper .toplogo {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 
 @media (max-width: 1366px){
+    .aboutus_block_wrapper .aboutus_block1_box2 img {
+        width: auto;
+        height: 100%;
+    }
+    .aboutus_block3_boxright h3 {
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+    .aboutus_block_wrapper .aboutus_block2_box2 img {
+        width: auto;
+        height: 100%;
+    }
+    .aboutus_block2_box1 p {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0 0 10px 0;
+    }
+    .aboutus_block_wrapper .aboutus_block3_box2 img {
+        width: auto;
+        height: 100%;
+    }
+    .aboutus_block3 {
+        background: url(system/themes/marketplace/images/aboutusblock3_bg.jpg) no-repeat left -495px center scroll;
+    }
+
 
     .mediaroom_videoblock { width: 1200px; }
 
@@ -876,8 +1046,8 @@
         max-width: 900px;
     }
     .topblok_wrapper .toplogo {
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
 
@@ -936,15 +1106,24 @@
         margin-top: 0px;
         width:634px;
     }
+    .conference_banner .conference_banner_img img {
+        margin-left: 30%;
+    }
 
+    .getpass_block1 h2 {font-size: 52px; line-height: 55px;}
+    .getpass_block3_left{margin: 0px 0px 0px 30px;}
+    .ta_block1 h2 {
+        font-size: 36px;
+        line-height: 36px;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 1360px) {
     .topblok_wrapper .toplogo {
-        margin-left: 55px;
-        margin-right: 55px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
-
 
     .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
         float: left;
@@ -1130,7 +1309,9 @@
 
 
 @media(max-width:1280px){
-
+    .aboutus_block3 {
+        background: url(system/themes/marketplace/images/aboutusblock3_bg.jpg) no-repeat left -549px center scroll;
+    }
     .hometextblock4 .hometextblock4-wrapper h3 {
         font-size: 16px;
         line-height: 26px;
@@ -1216,14 +1397,21 @@
         margin: 91px 0 0 0;
     }
 
+    .conference_banner .conference_banner_img img {
+        margin-left: 38%;
+    }
 
+    .ta_block1 h2 {
+        font-size: 38px;
+        line-height: 35px;
+    }
 }
 
 @media(max-width:1260px){
     .topblok_wrapper .toplogo{ width: 260px; float: none; margin: 0 auto;}
 
     .topblok_wrapper .top-menu {
-        width: 78%;
+        width: 84%;
         float: none;
         margin: 0 auto;
     }
@@ -1250,14 +1438,183 @@
         font-size: 34px;
         line-height: 46px;}
 
-
-
+    .topblok_wrapper .top-menu {
+        width: 86%;
+        float: none;
+        margin: 0 auto;
+    }
     }
 
 
 
 
 @media(max-width:1199px){
+    .aboutus_block3 {
+        background: url(system/themes/marketplace/images/aboutusblock3_bg.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: auto;
+    }
+    .aboutus_block3_wrapper .col-lg-push-6 {
+        left: 0;
+        width: 100%;
+    }
+    .aboutus_block3_boxright div p {
+        color: #fff;
+    }
+    .aboutus_block3_transparent {
+        background: rgba(0,0,0, 0.8);
+        left: 0;
+        top: 0;
+        position: relative;
+        height: 100%;
+    }
+    .aboutus_block3_wrapper .col-lg-push-6 {
+        left: 0;
+        width: 100%;
+        margin: 0px auto 30px auto;
+        text-align: center;
+    }
+    .aboutus_block2 .aboutus_block2_box1 ul li {
+        padding-bottom: 0px;
+    }
+    .aboutus_block_wrapper .aboutus_block1_box1 {
+        height: auto;
+    }
+    .aboutus_block_wrapper .aboutus_block1_box1 {
+        padding: 30px;
+    }
+    .aboutus_block_wrapper .aboutus_block1_box2 {
+        height: auto;
+    }
+    .aboutus_block_wrapper .aboutus_block2_box1 {
+        padding: 30px;
+    }
+    .aboutus_block1_box1 h4 {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 0 0 10px 0px;
+    }
+
+    .aboutus_block1_box1 div p {
+        font-family: 'Roboto';
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0;
+        padding: 0 0 0px 0;
+        color: #000;
+    }
+    .aboutus_block_wrapper .aboutus_block1_box2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutus_block_wrapper .aboutus_block2_box1 {
+        height: auto;
+    }
+    .aboutus_block_wrapper .aboutus_block2_box2 {
+        height: auto;
+    }
+
+    .aboutus_block2_box1 div p {
+        font-family: 'Roboto';
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0;
+        padding: 0 0 20px 0;
+        color: #000;
+    }
+    .aboutus_block_wrapper .aboutus_block2_box2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutus_block_wrapper .aboutus_block3_box1 {
+        height: auto;
+    }
+    .aboutus_block_wrapper .aboutus_block3_box2 {
+        height: auto;
+    }
+
+    .aboutus_block_wrapper .aboutus_block3_box2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .btngetpasswrapper{
+    margin-bottom: 10px;
+}
+    .aboutus_block2_box2 {
+        padding-top: 0px;
+    }
+    .aboutus_block2_box2 h3 {
+        width: 96%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+ .btngetpasswrapper {
+        margin: 0px auto;
+        clear: both;
+        float: none !important;
+        display: block;
+        width: 100%;
+     text-align: center;
+    }
+    .btnaboutpurple, .btnaboutpurple:hover {
+        margin-left: 0% !important;
+    }
+
+
+
+    .row-eq-height {
+        display: block;
+    }
+
+    .row-eq-height > div[class*='col-'] {
+        display: block;
+        width: 100%;
+    }
+    .ta_block1 .colorblock1 .btntawrapper, .ta_block1 .colorblock2 .btntawrapper, .ta_block1 .colorblock3 .btntawrapper {
+        margin: 0px;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .ta_block3_bg{
+        padding-top: 30px !important;
+    }
+    .getpass_block2_bg h2 {
+        font-size: 40px;
+    }
+
+    .getpass_block2_singlelists{
+        margin-bottom: 30px;
+    }
+    .getpass_block2_singlelists:last-of-type{
+        margin-bottom: 0px;
+    }
+    .getpass_block2_bg h4 {
+        padding: 0px;
+    }
+
+    .singleimgwrapper img {
+        height: 100%;
+        width: 100%;
+    }
+    .block1_singleimgwrapper {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: auto;
+    }
+
+
+
+
 
     .conference_banner_text .bannertextblock3 .mediaroombannerimg2 img{ width: 100%;}
 
@@ -1843,6 +2200,132 @@
 
     .con_block2_top .con_block2_top_img2 img{ width: auto; max-width: 100%; display:block; margin:0 auto; margin-top: 15px;}
 
+
+    .conference_banner .conference_banner_img img {
+        margin-left: 0%;
+    }
+
+    .equal, .equal > div[class*='col-'] {
+        display: block;
+    }
+    .getpass_block_wrapper { width: 90%; margin: 0 auto; }
+    .getpass_block1_singleimg img {
+        height: auto;
+        background-size: cover;
+        width: 100%;
+    }
+    .getpass_block3_left{margin: 30px 0px 0px 0px;}
+    .getpass_block3_left h2:after{
+        left: 0px !important;
+    }
+    .getpass_block2_singleimgwrapper img {
+        height: auto;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .getpass_block1_singleimgwrapper {
+        overflow: hidden;
+        height: auto;
+    }
+
+
+
+    .ta_block_wrapper { width: 90%; margin: 0 auto; }
+    .ta_block1_singleimg img {
+        height: 100%;
+        width: 100%;
+    }
+    .ta_block1_singleimgwrapper {
+        overflow: hidden;
+        height: auto;
+    }
+    .ta_block1_singleimg {
+        margin-top: 60px;
+    }
+    .ta_block4_wrapper { width: 90%; margin: 0 auto; }
+
+    .ta_block4_wrapper .block1_singleimg img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .ta_block5_wrapper { width: 90%; margin: 0 auto; }
+    .ta_block6_wrapper{width: 90%; margin: 0 auto;}
+    .ta_block6_wrapper .block1_singleimg img {
+        height: 100%;
+        width: 100%;
+    }
+    .ta_block6_singleimg img {
+        height: auto;
+        width: 100%;
+    }
+
+    .ta_block6_wrapper .ta_block1_left {
+        margin: 30px 0 0 0px;
+    }
+    .ta_block6_wrapper .ta_block1_left h2:after {
+        margin-left: auto;
+    }
+
+    .ta_block3_wrapper .getpass_block1_left {
+        margin: 50px 102px 30px 30px;
+    }
+    .ta_block6_wrapper .ta_block1_left h2:after {
+        margin-left: auto;
+        position: inherit;
+        margin-right: auto;
+        display: block;
+        float: none;
+    }
+    .ta_block5_wrapper .ta_block1 .colorblock1 h2:after {
+        position: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        float: none;
+    }
+    .ta_block1 .colorblock3 h2:after {
+        width: 316px;
+        height: 1px;
+        position: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        float: none;
+    }
+    .ta_block5_wrapper .ta_block1 .colorblock2 h2:after {
+        width: 130px;
+        height: 1px;
+        position: inherit;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .ta_block4_wrapper .ta_block1 h2:after {
+        width: 366px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .getpass_block1 h2:after {
+        position: inherit;
+        width: 158px;
+        height: 2px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ta_block1 h2:after {
+        position: inherit;
+        width: 158px;
+        height: 2px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -1855,7 +2338,7 @@
 }
 @media(max-width:991px){
 
-
+    .thankyou_boxcon{ width: 90%;}
 
     .dealerstrengtmagazineblock .magazineblocktwo .col-md-6{ margin: 0; padding: 0; width: 100%;  }
     .dealerstrengtmagazineblock .magazineblocktwo .col-md-6:first-of-type{ margin-bottom: 30px;}
@@ -2075,7 +2558,22 @@
 
 
 @media(max-width:767px){
+    .ta_block6_singleimgwrapper {
+        overflow: hidden;
+        height: auto;
+        width: auto;
+    }
 
+    .ta_block6_wrapper .ta_block1_left h2:after {
+        width: 100%;
+    }
+    .ta_block1 h2:after {
+        width: 100%;
+    }
+
+    .ta_block4_wrapper .ta_block1 h2:after {
+        width: 100%;
+    }
 
     .hometextblock10-wrapper .container{ display: inline!important; margin: 0px!important; padding: 0px!important;}
     .hometextblock10-wrapper .block10_center{ width: 600px; margin: 0 auto; overflow: hidden;}
@@ -2116,7 +2614,9 @@
 
 }
 @media(max-width:640px){
-
+    .getpass_block1 h2 {
+        font-size: 42px;
+    }
     .hometextblock9 td div {
 
         min-height: inherit;
@@ -2172,6 +2672,12 @@
 }
 
 @media(max-width:480px){
+    .mediaroom_block2 h2 {
+        font-size: 25px;
+    }
+    .getpass_block1 h2 {
+        font-size: 30px;
+    }
     .conblock3heading{  font-size: 36px; }
     .hometextblock4 .hometextblock4-wrapper h2{ font-size: 50px; line-height: 54px; }
 
@@ -2529,6 +3035,30 @@
 }
 
 @media(max-width:1199px){
+    .getpass_block1_left {
+        margin: 0px auto 30px auto;
+    }
+    .getpass_block_wrapper .ta_block1_left {
+        margin: 35px auto 0px auto;
+    }
+    .ta_block1_left {
+        margin: 0px auto 0px auto;
+    }
+    .aboutus_block1_box1 h2 {
+        font-size: 32px;
+        line-height: 48px;
+        padding-bottom: 0px;
+    }
+    .aboutus_block2_box2 h3 {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .aboutus_block2 .aboutus_block2_box1 {
+        padding: 0px;
+    }
+    .aboutus_block2_box2 {
+        padding-top: 20px;
+    }
     .hometextblock5 .hometextblock5-wrapper h4{  margin-top: 0 !important; padding-top: 0px;}
 
     .allvideoblock{ margin-bottom: 2%;
@@ -2556,6 +3086,13 @@
     .dealerstrengtmagazineblock .magazineblockthree  h2 {
         font-size: 12px; height: auto;
     }
+    .aboutus_block2_box2 img{
+        max-width: 100%;
+        height: auto;
+    }
+    .btnaboutpink, .btnaboutpink:hover {
+        float: none;
+    }
 }
 
 @media(max-width:767px){
@@ -2581,6 +3118,16 @@
 
 
     .mediaroom_block3{ margin-top: 20px;}
+    .aboutus_block2_box1_img img {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .aboutus_block2_box1_txt{
+        text-align: center;
+    }
 
 }
 
@@ -2652,6 +3199,7 @@
 @media(max-width:1380px){
 
     .dealerstrengthezineformimg{ width: 480px;}
+
 }
 
 
@@ -2667,6 +3215,25 @@
 
 
 @media(max-width:1199px){
+    .aboutus_block1_box1 h4 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .aboutus_block1_box1 div p {
+        text-align: center;
+    }
+
+    .aboutus_block3_box1 p {
+        text-align: center;
+    }
+    .ta_block1_left, .getpass_block1_left, .ta_block1{
+        text-align: center;
+    }
+
+
+
+
     .dealerstrengthezineformimg {
         bottom: 0;
         left: 0;
@@ -2691,6 +3258,14 @@
 }
 
 @media(max-width:991px){
+
+
+    .bookingcheckout_wrapper .bookingcheckout_probox .probox_left{  padding: 0 0 15px 0; text-align: center; }
+
+
+    .bookingcheckout_wrapper .bookingcheckout_probox .probox_right{ padding:15px 0 0 0;  border-left: none; border-top: solid 1px #d9d9d9; min-height: inherit; text-align: center;}
+
+
     .dealerstrengt_formmain .dealerstrengt_formdiv{ width: 452px; margin: 0 auto; margin-bottom: 30px;}
 
     .dealerstrengt_formmain .dealerstrengt_formdiv .form-groupdl{ width: 420px;  float: none; display: block;}
@@ -2897,6 +3472,13 @@
     .conbanner1_textwrapper a{ width: 300px;  padding: 24px 2px 28px 0;}
 
     .conference_conblock2{ padding-bottom: 10px;}
+    .aboutus_block_wrapper .row {
+        margin-top: 30px;
+    }
+    .aboutus_block3_wrapper {
+        width: 90%;
+        margin: 30px auto !important;
+    }
 }
 
 
@@ -3003,6 +3585,9 @@
 }
 
 @media(max-width:767px){
+
+    .bookingcheckout_wrapper{ width: 96%; margin: 30px auto;}
+
     .hometextblock6 .hometextblock6-wrapper h2{ padding-left: 10px; padding-right: 10px;}
     .mediaroom_formblockcon{ width: 90%; margin: 40px auto;}
 
@@ -3012,6 +3597,9 @@
     .form-groupd2 .form-control{ display: block; width: 302px;}
 
     .modal-content{ left: 3%;}
+    .aboutus_block2_box1 div p {
+        text-align: center;
+    }
 }
 
 
@@ -3132,6 +3720,10 @@
 
     .contactformwrapper{ padding-left: 0px!important; background:none!important; width: 650px; margin: 0 auto!important;}
 
+    .getpass_block2_singlelists {
+        width: 33.33%;
+    }
+
 }
 
 @media(max-width:767px){
@@ -3149,6 +3741,12 @@
     }
 
     .form-groupd3 .form-control{ display: block; width: 382px;}
+    .getpass_block2_singlelists {
+        width: 50%;
+    }
+    .getpass_block3_left h3 {
+        line-height: normal;
+    }
 }
 
 
@@ -3186,6 +3784,10 @@
     .form-groupd3 .form-control{ display: block; width: 100%; float: none; margin: 0; height: 41px; border-radius:0; background: #d5d5d5; border: solid 1px #bcbcbc; padding: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; color: #000;     box-shadow: none!important;}
 
     .contactformwrapper .contactform_div1 h2{ font-size: 40px; padding-bottom: 18px;}
+
+    .getpass_block2_singlelists {
+        width: 100%;
+    }
 }
 
 
@@ -3197,13 +3799,17 @@
     .conference_block2 h6 span{ padding-left: 0px;}
 
     .contactform_div2 span{ margin: 8px;}
+
 }
 
 
 
 
 @media(max-width:1199px){
-
+    .getpass_block2_singleimgwrapper {
+        overflow: hidden;
+        height: auto;
+    }
 .block6btnwrapper .block6btn1 {
     background-size: 312px;
     width: 310px;
@@ -3259,4 +3865,16 @@
     height: auto;
 }
 
+}
+
+
+@media(max-width:1411px){
+    .ta_block2_wrapper .getpass_block1_left {
+        margin: 50px 30px 30px 30px;
+    }
+    .ta_block2_wrapper .getpass_block1 h2:after {left: 30px;}
+
+    .ta_block3_wrapper .getpass_block1_left {
+        margin: 50px 30px 30px 30px;
+    }
 }
