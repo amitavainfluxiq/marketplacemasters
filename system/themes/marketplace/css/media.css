@@ -30,15 +30,18 @@
 }
 
 @media(max-width:1860px) {
+
+    .homebannerblock .bannercontent h4 {
+        font-family: "robotobold";
+        font-size: 24px;
+    }
+
     .homebannerblock .bannercontent h3 {
         font-family: 'robotobold';
-        font-size: 31px;
+        font-size: 28px;
 
     }
-    .homebannerblock .bannercontent h4 {
-        font-family: 'robotobold';
-        font-size: 32px;
-    }
+
 
     .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_left {
 
@@ -58,15 +61,8 @@
 
 }
 @media(max-width:1820px) {
-    .homebannerblock .bannercontent h3 {
-        font-family: 'robotobold';
-        font-size: 28px;
-        line-height: 30px;
-    }
-    .homebannerblock .bannercontent h4 {
-        font-family: 'robotobold';
-        font-size: 28px;
-    }
+
+
 
 
     .dealerstrengthtopbanner .dealerstrengthtopbanner_block1 .dealerstrength_top_right {
@@ -76,6 +72,23 @@
 
 }
 @media(max-width:1760px){
+
+
+    .dealerstrengthtopbanner_block2 h2{ font-size: 50px;}
+
+    .dealerstrengthtopbanner_block2 h3{   font-size: 30px;
+        line-height: 45px;}
+
+
+
+    .homebannerblock .bannercontent h3 {
+        width: 44%;  font-size: 20px;
+    }
+
+    .homebannerblock .bannercontent h4 {
+        font-family: "robotobold";
+        font-size: 18px;
+    }
     .hometextblock5 .hometextblock5-wrapper h2 {
         font-family: 'Roboto-Bold';
         margin: 0;
@@ -111,11 +124,11 @@
     }
     .homebannerblock .bannercontent h3 {
         width: 41%;
-        font-size: 27px;
+
     }
     .homebannerblock .bannercontent h4 {
         width: 42%;
-        font-size: 27px;
+
     }
     .homebannerblock h3{font-size: 27px;width: 38%;}
     .homebannerblock .bannercontentblock img {
@@ -127,11 +140,11 @@
 @media(max-width:1730px){
     .homebannerblock .bannercontent h3 {
         width: 41%;
-        font-size: 25px;
+
     }
     .homebannerblock .bannercontent h4 {
         width: 42%;
-        font-size: 25px;
+
     }
     .topblok_wrapper .toplogo{ width: 280px;}
     .hometextblock5 .hometextblock5-wrapper h2 {
@@ -153,6 +166,18 @@
 
 
 @media(max-width:1680px){
+
+    .colorblock1_div{ height: 330px; overflow: hidden;}
+
+    .conference_conblock2 .con_block2_wrapper .con2righttext2 {
+
+        width: 720px;
+    }
+
+    .homebannerblock .bannercontent h3{ font-size: 23px;}
+
+    .homebannerblock .bannercontent h4{ font-size: 22px;}
+    .bannertextnbtn1{ font-size: 16px;}
     .topblok_wrapper .toplogo {
         margin-left: 80px;
         margin-right: 80px;
@@ -172,7 +197,7 @@
         border-top: none;
     }
 
-    .hometextblock7 .block7_left{ width: 840px; }
+    .hometextblock7 .block7_left{ width: 1000px; }
     .hometextblock7 .block7_right{ width: 707px; float: right; margin-top:136px;}
 
 
@@ -193,8 +218,8 @@
         line-height: 80px;
     }
     .hometextblock4 .hometextblock4-wrapper h3 {
-        margin: 0px 0 0px 17px;
-        max-width: 1044px;
+        margin: 0px 0 0px 12px;
+        max-width: 96%;
         padding: 26px 20px 26px 78px;
         font-family: 'robotobold';
         font-size: 18px;
@@ -318,13 +343,15 @@
     }
     .ta_block4_wrapper { width: 96%; margin: 0 auto; }
 
-    .ta_block5_wrapper { width: 96%; margin: 0 auto; }
+    .ta_block5_wrapper { width: 100%; margin: 0 auto; }
     .ta_block6_wrapper{width: 96%; margin: 0 auto;}
 }
 
 
 @media(max-width:1666px) {
-
+    .footerblock .footertop .footermenu {
+        width: 100%;
+    }
     .hometextblock8-wrapper .block8con:first-of-type .block8con_text {
         width:74.5%;
     }
@@ -336,16 +363,16 @@
          }
 
     .homebannerblock .bannercontent h3 {
-        width: 38%;
-        font-size: 22px;
+        width: 40%; font-size: 21px;
+
     }
     .homebannerblock .bannercontent h4 {
         width: 42%;
-        font-size: 23px;
+
     }
     .homebannerblock .bannercontent p {
         font-family: 'robotobold';
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .aboutus_block3 {
@@ -360,6 +387,9 @@
         margin-top: -69px;
     }
     .conference_banner .conference_banner_img img {
+        margin-left: 24%;
+    }
+    .conference_banner2 .conference_banner2_img img {
         margin-left: 24%;
     }
 
@@ -379,12 +409,12 @@
 
 @media(max-width:1660px){
 
-    .dealerstrengthblock2{background: url("system/themes/marketplace/images/dealerstrength_bg2.jpg")  left top; padding: 30px 20px 23px 20px;}
+    .dealerstrengthblock2{background: url("system/themes/marketplace/images/dealerstrength_bg2.jpg")  left top; padding: 30px 20px 5px 20px;}
 
     .dealerstrengthtopbanner_block2 h2{ font-size: 46px;}
     .dealerstrengthtopbanner_block2 h3{ font-size: 28px;
         line-height: 36px;}
-    .topblok_wrapper .navbar-default ul li a{  padding: 0 10px 10px 10px;}
+
 
     .hometextblock3 .hometextblock3left h3 {  font-size: 38px; }
     .hometextblock3 .hometextblock3left h4 {  font-size: 38px; }
@@ -449,6 +479,10 @@
 
     .conference_banner_bgblock1{ width: 1040px;}
 
+    .conference_banner2_text .bannertextblock1{ width: 870px}
+
+    .conference_banner2_bgblock1{ width: 1040px;}
+
     .bannertextblock2 {
    margin-left: 76px;
         width: 500px;
@@ -501,7 +535,7 @@
     }
     .homebannerblock .bannercontent h4 {
         width: 40%;
-        font-size: 28px;
+
     }
     .imgbgright {
         position: relative;
@@ -510,23 +544,24 @@
     }
     .homebannerblock .bannercontent h3 {
         width: 38%;
-        font-size: 23px;
+
     }
     .homebannerblock .bannercontent h4 {
         width: 42%;
-        font-size: 24px;
+
     }
     .homebannerblock h3 {
          font-size: 22px;
          width: 38%;
      }
     .homebannerblock .bannercontent h3 {
-        width: 35%;
-        font-size: 24px;
+        width: 40%;
+
     }
     .homebannerblock .bannercontent h4 {
-        width: 36%;
-        font-size: 23px;
+        width:40%;
+        font-size: 20px;
+
     }
 
     .getpass_block1 h2 {
@@ -563,20 +598,20 @@
 
     .homebannerblock .bannercontent h3 {
         width: 55%;
-        font-size: 31px;
+
     }
 
     .homebannerblock .bannercontent h4 {
         width: 53%;
-        font-size: 30px;
+
     }
 
     .homebannerblock .bannercontent p {
         font-family: 'robotobold';
-        font-size: 22px;
+        font-size:18px;
         color: #ff0000;
         text-align: left;
-        line-height: 30px;
+        line-height: 24px;
         padding: 0;
         margin: 0;
         width: 50%;
@@ -631,8 +666,33 @@
 }
 
 @media (max-width: 1540px){
+    .footerblock .footertop .footermenu {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .conference_banner2_text .bannertextblock1 h2 span{ width: 100%; font-size:    font-size: 20px;
+        line-height: 27px;}
+
+    .bannertextblock2{ float: right;}
+    .conference_banner_text{ width: 100%;}
+
+    .conference_banner2_text{ width: 100%;}
+
+    .conference_banner2_bgblock1{ width: 100%;}
+
+
+
+    .conference_banner_bgblock1{ left: 80px;}
+
+    .conference_banner2_bgblock1{ left: 80px;}
 
     .conference_banner_text .bannertextblock1 .mediaroombannerimg2 img{ width: 580px;}
+    .conference_banner2_text .bannertextblock1 .mediaroombannerimg2 img{ width: 580px;}
+
+
     .hometextblock11-wrapper .block11con:first-of-type .imgwrapper img {
         display: block;
         width: 120%;
@@ -642,25 +702,33 @@
 
 
     .conference_banner_text .bannertextblock3 .mediaroombannerimg2 img{ width: 580px;}
+    .conference_banner2_text .bannertextblock3 .mediaroombannerimg2 img{ width: 580px;}
 
     .bannertextblock4 {
         width: 648px;
     }
 
     .conference_banner_text .bannertextblock1{ width: 760px}
+    .conference_banner2_text .bannertextblock1{ width: 760px}
 
     .conference_banner_bgblock1{ width: 890px;}
+    .conference_banner2_bgblock1{ width: 890px;}
 
     .conference_banner_text .bannertextblock1 h2 {
+      font-size: 40px;
+        line-height: 46px;}
+    .conference_banner2_text .bannertextblock1 h2 {
       font-size: 40px;
         line-height: 46px;}
 
     .conference_banner_text .bannertextblock1 h3{font-size: 20px;
         line-height: 26px;}
+    .conference_banner2_text .bannertextblock1 h3{font-size: 20px;
+        line-height: 26px;}
 
     .bannertextblock2 {
-        margin-left: 30px;
-        width: 368px;
+        margin-left: 0px;
+        width: 366px;
     }
 
     .bannertextblock2 h2{ width: 100%;  font-size: 40px; line-height: 40px; }
@@ -673,18 +741,27 @@
 
 @media(max-width:1520px){
 
+
+    .dealerstrengthtopbanner_block2 h2{ font-size: 40px;}
+
+    .dealerstrengthtopbanner_block2 h3{   font-size: 24px;
+        line-height: 30px;}
+
+
+
+
     .ta_block1 h2 {
         font-size: 44px;
     }
 
     .footerblock .footertop{ width: 100%; }
 
-    .footerblock .footertop .footesocialblock{ width: 190px; float: none; margin: 0 auto; padding-top: 22px;}
 
 
-    .footerblock .footertop .footermenu a{ padding:0px 6px 12px 6px; display: inline-block; }
 
-    .footerblock .footertop .footermenu{  width:100%; text-align: center; float: none;  }
+    .footerblock .footertop .footermenu a{ padding:0px 3px 12px 3px; display: inline-block; }
+
+
 
     .hometextblock9 .hometextblock9_left{ width: 50%; float: left; padding: 0 10px;}
 
@@ -782,7 +859,7 @@
         margin-left: -60px !important;
     }
 
-    .hometextblock7 .block7_left{ width: 700px; }
+    .hometextblock7 .block7_left{ width: 960px; }
     .hometextblock7 .block7_right{ width: 600px; float: right; margin-top:146px;}
 
     .hometextblock7 .block7_left h5{ padding-left: 10px; padding-right: 10px;  font-size: 26px;
@@ -841,16 +918,18 @@
 @media(max-width:1500px) {
     .homebannerblock .bannercontent h3 {
         width: 55%;
-        font-size: 30px;
+
     }
     .homebannerblock .bannercontent h4 {
         width: 53%;
-        font-size: 29px;
+
     }
 }
 
 
 @media (max-width: 1480px) {
+
+    .exhibitors_block3 .exhibitors3_textcon .exhibitors3_text1 h2{ font-size: 42px;}
     .aboutus_block3_boxright h3 {
         font-size: 24px;
         line-height: 30px;
@@ -916,21 +995,21 @@
     }*/
     .homebannerblock .bannercontent h4 {
         width: 43%;
-        font-size: 26px;
+
         line-height: normal;
-        margin-bottom: 22px;
+
     }
     .homebannerblock .bannercontent h4 {
         width: 50%;
-        font-size: 25px;
+
         line-height: normal;
-        margin-bottom: 22px;
+
     }
 
     .homebannerblock .bannercontent p {
-        font-size: 22px;
+        font-size: 18px;
         width: 43%;
-        margin-bottom: 22px;
+        margin-bottom: 24px;
     }
     .homebannerblock h3 {
         font-size: 24px;
@@ -1043,7 +1122,7 @@
 
     .hometextblock4 .hometextblock4-wrapper h3 {
         margin: 0px 0 0px -21px;
-        max-width: 900px;
+        max-width: 960px;
     }
     .topblok_wrapper .toplogo {
         margin-left: 40px;
@@ -1109,6 +1188,9 @@
     .conference_banner .conference_banner_img img {
         margin-left: 30%;
     }
+  .conference_banner2 .conference_banner2_img img {
+        margin-left: 30%;
+    }
 
     .getpass_block1 h2 {font-size: 52px; line-height: 55px;}
     .getpass_block3_left{margin: 0px 0px 0px 30px;}
@@ -1120,6 +1202,16 @@
 }
 
 @media (max-width: 1360px) {
+
+    .conference_banner2_text .bannertextblock1 h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .conference_conblock2 .con_block2_wrapper .con2righttext2 {
+
+        width: 580px;
+    }
     .topblok_wrapper .toplogo {
         margin-left: 24px;
         margin-right: 24px;
@@ -1135,13 +1227,20 @@
 
 
 @media (max-width: 1320px) {
+
+    .dealerstrengthtopbanner_block2 h2{ font-size: 36px;}
+
+    .dealerstrengthtopbanner_block2 h3{   font-size: 22px;
+        line-height: 30px;}
+
+
     .homebannerblock .bannercontentblock img {
         width: 34%;
         max-width: inherit;
     }
     .homebannerblock .bannercontent h3 {
         width: 55%;
-        font-size: 26px;
+
     }
     .homebannerblock h3 {
         font-size: 25px !important;
@@ -1218,6 +1317,10 @@
 
 
 @media(max-width:1300px){
+
+    .bannertextnbtn1{ display: block; margin: 0 auto;  font-size: 16px; padding: 8px;  width: 290px;}
+
+    .homebannerblock .bannercontentblock{ padding-bottom: 35px; }
     .topblok_wrapper .toplogo{ width: 220px;}
     .topblok_wrapper .navbar-default ul li a{  padding: 0px 5px 5px 5px; }
 
@@ -1263,7 +1366,7 @@
     }
     .homebannerblock .bannercontent h3 {
         width: 100%;
-        font-size: 24px;
+
         text-align: center;
     }
     .homebannerblock .bannercontent h4 {
@@ -1273,14 +1376,14 @@
     }
     .homebannerblock .bannercontent p {
         font-family: 'robotobold';
-        font-size: 22px;
+        font-size: 18px;
         color: #ff0000;
         text-align: center;
-        line-height: 30px;
+        line-height: 24px;
         padding: 0;
         margin: 0;
         width: 100%;
-        margin-bottom: 28px;
+        margin-bottom: 20px;
     }
     .homebannerblock .bannercontent blockquote {
         padding: 0px 10px;
@@ -1335,7 +1438,7 @@
         line-height: 36px;
     }
 
-    .hometextblock7 .block7_left{ width: 600px; }
+    .hometextblock7 .block7_left{ width: 900px; }
     .hometextblock7 .block7_right{ width: 560px; float: right; margin-top:260px;}
 
     .hometextblock4:before {
@@ -1401,6 +1504,10 @@
         margin-left: 38%;
     }
 
+    .conference_banner2 .conference_banner2_img img {
+        margin-left: 38%;
+    }
+
     .ta_block1 h2 {
         font-size: 38px;
         line-height: 35px;
@@ -1435,6 +1542,14 @@
     .conference_banner_bgblock1{ width: 828px;}
 
     .conference_banner_text .bannertextblock1 h2 {
+        font-size: 34px;
+        line-height: 46px;}
+
+ .conference_banner2_text .bannertextblock1{ width: 700px}
+
+    .conference_banner2_bgblock1{ width: 828px;}
+
+    .conference_banner2_text .bannertextblock1 h2 {
         font-size: 34px;
         line-height: 46px;}
 
@@ -1618,6 +1733,8 @@
 
     .conference_banner_text .bannertextblock3 .mediaroombannerimg2 img{ width: 100%;}
 
+    .conference_banner2_text .bannertextblock3 .mediaroombannerimg2 img{ width: 100%;}
+
     .bannertextblock4 {
         width: 100%;
     }
@@ -1625,6 +1742,11 @@
 
 
     .conference_banner_text .bannertextblock3{ width: 100%;}
+
+    .conference_banner2_text .bannertextblock3 h6{ margin-left: 0px; text-align: center;}
+
+
+    .conference_banner2_text .bannertextblock3{ width: 100%;}
 
     .mediadetail_block3{ width: 90%; margin: 0px auto; padding: 30px 0; }
 
@@ -1663,6 +1785,9 @@
     .conference_banner_text .bannertextblock1 h6{ text-align: center; margin: 0 0 16px 0;}
 
     .conference_banner_text .bannertextblock1 .mediaroombannerimg2 img{ max-width: 100%; width: auto; display: block; margin: 0 auto;}
+  .conference_banner2_text .bannertextblock1 h6{ text-align: center; margin: 0 0 16px 0;}
+
+    .conference_banner2_text .bannertextblock1 .mediaroombannerimg2 img{ max-width: 100%; width: auto; display: block; margin: 0 auto;}
 
     .dealerstrengtmagazineblock .magazineblockthree .magazinelink1{
         font-size: 16px;
@@ -1749,8 +1874,28 @@
 
     .conference_banner_text .bannertextblock1 h3{ margin: 40px 0 0 0; padding: 0; text-align: center; font-size: 24px; color: #ffffff;    font-family:'OpenSans-Semibold'; line-height: 30px; }
 
+ .conference_banner2{  width: 100%; height: auto; position: relative; overflow: inherit;}
 
 
+    .conference_banner2 .conference_banner2_img{ width: 100%; float: none;}
+
+
+
+
+    .conference_banner2_bgblock1{ display: none;}
+
+
+    .conference_banner2_text{ position: inherit; top: 0; left: 0; padding: 40px;}
+
+    .conference_banner2_text .bannertextblock1{ width: 100%; float: none; text-align: center;}
+    .conference_banner2_text .bannertextblock1 h2{ margin: 0; padding: 0; text-align: center; font-size: 48px; color: #000; text-transform: uppercase;   font-family: 'robotoblack'; line-height: 50px; text-shadow: 0 0 8px #656565;}
+
+    .conference_banner2_text .bannertextblock1 h3{ margin: 40px 0 0 0; padding: 0; text-align: center; font-size: 24px; color: #000;    font-family:'OpenSans-Semibold'; line-height: 30px; }
+
+
+    .bannertextblock2text{ color: #000!important;}
+
+    .bannertextblock2text:first-line{ color: #000!important;}
 
     .bannertextblock2{ width:100%; float: none; margin-left: 0px; margin-top: 40px; }
 
@@ -1958,7 +2103,6 @@
         display: block !important;
     }
     .top-menu .dropdown-menu {
-        display: block;
         margin-top: 5px;
         padding: 0;
         position: inherit;
@@ -1968,6 +2112,9 @@
     .top-menu .navbar-default {
         background:#0d0d0d;
     }
+
+    .topblok_wrapper .navbar-default ul li a{  padding: 0 10px 10px 10px; border-bottom:solid 1px #ccc!important; color: #fff!important;}
+    .topblok_wrapper .navbar-default ul li a:hover{  padding: 0 10px 10px 10px; border-bottom:solid 1px #ccc!important; color: #fff!important;}
 
 
     /*.hometextblock4 .hometextblock4-wrapper{  padding: 50px 50px 1px 50px; background-size: 34%;}
@@ -2091,16 +2238,16 @@
          padding: 0 20px 0 16px;
      }
     .homebannerblock .bannercontentblock {
-        padding: 28px 10px 8px 10px !important;
+        padding: 28px 10px 25px 10px !important;
     }
     .homebannerblock .bannercontent h3 {
         margin-bottom: 15px !important;
     }
     .homebannerblock .bannercontent h4 {
         width: 55%;
-        font-size: 25px;
+
         line-height: normal;
-        margin-bottom: 16px !important;
+
         margin-left: auto;
         margin-right: auto;
     }
@@ -2169,6 +2316,18 @@
         margin: 10px;
         float: none; }
 
+
+    .conference_conblock2 .con_block2_wrapper .con2leftimg2{ width: 100%; float: none; text-align: center; margin-top: 0px;}
+
+    .conference_conblock2 .con_block2_wrapper .con2leftimg2 .imgnewdiv{ width: 600px; height: auto; margin: 0 auto;}
+
+    .con2leftbtn2{width: 600px;}
+
+    .conference_conblock2 .con_block2_wrapper .con2righttext2{ width: 100%; float: none; margin-top: 30px; text-align: center; border:none; padding: 0px 0 30px 0; }
+
+    .conference_conblock2 .con_block2_wrapper .con2righttext2 h3{border-left: none; padding: 0px; margin-top: 30px;}
+
+
     .conference_conblock2 .con_block2_wrapper .con2righttext{ width: 100%; float: none; margin-top: 30px; text-align: center; border:none; padding: 0px 0 30px 0; }
 
     .conference_conblock2 .con_block2_wrapper .con2righttext h3{border-left: none; padding: 0px; margin-top: 30px;}
@@ -2202,6 +2361,10 @@
 
 
     .conference_banner .conference_banner_img img {
+        margin-left: 0%;
+    }
+
+    .conference_banner2 .conference_banner2_img img {
         margin-left: 0%;
     }
 
@@ -2251,7 +2414,7 @@
     }
 
 
-    .ta_block5_wrapper { width: 90%; margin: 0 auto; }
+    .ta_block5_wrapper { width: 100%; margin: 0 auto; }
     .ta_block6_wrapper{width: 90%; margin: 0 auto;}
     .ta_block6_wrapper .block1_singleimg img {
         height: 100%;
@@ -2296,7 +2459,7 @@
         float: none;
     }
     .ta_block5_wrapper .ta_block1 .colorblock2 h2:after {
-        width: 130px;
+        width: 300px;
         height: 1px;
         position: inherit;
         margin-left: auto;
@@ -2404,7 +2567,10 @@
         margin-left: -62px;
     }
 
-
+    .bookingcheckout_wrapper .bookingcheckout_probox .probox_right .qty_box {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media(max-width:960px) {
     .hometextblock11-wrapper .block11con:first-of-type .imgwrapper img {
@@ -2584,6 +2750,11 @@
 }
 
 @media(max-width:680px){
+    .footerblock .footertop .footermenu li{ display: block; width: 100%; position: relative; height: auto;}
+
+    .footernav .dropdown-menu{  width: 100%; border-radius: 0px;}
+    .footernav .dropdown-menu li{ width: 100%; text-align: center; border-radius: 0px;}
+
     .hometextblock5 .hometextblock5-wrapper h5{ font-size:40px;}
 
     .welcomedealership h1{ font-size:40px; line-height: 38px;}
@@ -2614,6 +2785,17 @@
 
 }
 @media(max-width:640px){
+
+    .hometextblock9 table td{ width: 100%!important;}
+
+    .exhibitors_block5_row2 .exhibitors5_con2_box3{ height: auto!important;}
+
+
+    .conference_conblock2 .con_block2_wrapper .con2leftimg2 .imgnewdiv{ width: 100%; height: auto; margin: 0 auto;}
+
+    .con2leftbtn2{width: 100%; margin: 30px 0; line-height: 26px; padding: 12px;}
+
+
     .getpass_block1 h2 {
         font-size: 42px;
     }
@@ -2643,13 +2825,14 @@
         width: 100%;
         font-size: 100% !important;
         text-align: center;
-        line-height: normal;
+        line-height: normal;   font-size: 25px!important;
     }
     .homebannerblock .bannercontent h4 {
         width: 100%;
         font-size: 100% !important;
         text-align: center;
         line-height: normal;
+        font-size: 25px!important;
     }
 
     .homebannerblock .bannercontent p {
@@ -2672,6 +2855,8 @@
 }
 
 @media(max-width:480px){
+
+    .bootbtn3new1{ width: 280px; line-height: 24px;}
     .mediaroom_block2 h2 {
         font-size: 25px;
     }
@@ -2840,7 +3025,26 @@
 
     .conference_banner_text .bannertextblock1 h2{font-size: 26px;
         line-height: 30px;}
+
+    .conference_banner_text .bannertextblock1 h2 span{font-size: 24px;
+        line-height: 29px;}
     .conference_banner_text .bannertextblock1 h3{font-size: 20px;
+        line-height: 24px; margin-top: 25px;}
+
+
+    .conference_banner2 .conference_banner2_img{ overflow: hidden; width: 100%;}
+
+    .conference_banner2 .conference_banner2_img img{ width: 120%; margin-left: -20%;}
+
+    .conference_banner2_text{ padding: 20px; }
+    .bannertextblock2 .text2btn{ width: 100%; font-size: 24px;}
+
+    .conference_banner2_text .bannertextblock1 h2{font-size: 26px;
+        line-height: 30px;}
+
+    .conference_banner2_text .bannertextblock1 h2 span{font-size: 24px;
+        line-height: 29px;}
+    .conference_banner2_text .bannertextblock1 h3{font-size: 20px;
         line-height: 24px; margin-top: 25px;}
 
 
@@ -3035,6 +3239,28 @@
 }
 
 @media(max-width:1199px){
+    .footerblock .footertop .footermenu{  width:100%; text-align: center; float: none;  }
+
+
+    .dashboard2_text1{ padding-top: 0px!important;}
+
+    .dashboard2_text2{ width: 90%; display: block; margin: 0 auto;}
+
+    .exhibitors_block5_newrow4{ text-align: center;}
+
+    .exhibitors_block5_newrow4 .exhibitors3_text1 h4{ padding:28px 10px 0 10px;}
+
+    .exhibitors3_text2{ padding-top: 10px;}
+
+    .con2leftbtn2{ margin: 30px auto;}
+    .conference_banner2_text .bannertextblock1 h2 span{ padding-left: 0px; padding-right: 0px;}
+    .hometextblock5 .hometextblock5-wrapper .block5btn {
+        font-size: 16px;
+        height: auto;
+        line-height: 25px;
+        margin-top: 23px !important;
+        width: 280px;
+    }
     .getpass_block1_left {
         margin: 0px auto 30px auto;
     }
@@ -3156,7 +3382,10 @@
 }
 
 @media(max-width:1800px){
-
+    .footerblock .footertop {
+        margin: 0 auto;
+        width: 100%;
+    }
     .dealerstrengt_formmain{ margin-right: 30px;}
 
     .conbanner1_textwrapper a{ width: 400px;}
@@ -3193,13 +3422,47 @@
 @media(max-width:1460px){
 
     .dealerstrengthezineformimg{ width: 580px;}
+
+    .dashboard2_block1 .dashboard2_block1_left{ margin-top: 20px;}
+
+    .dashboard2_block1 h2{ font-size: 45px; line-height: 52px;}
 }
 
 
 @media(max-width:1380px){
+    .conference_banner2_text .bannertextblock1{ width: 680px;}
 
+    .dashboard2_block1{ padding-bottom: 50px;}
+
+    .dashboard2_block2_toptext h2{ margin: 0px; border-radius: 0px; font-size: 36px; }
+
+    .dashboard2_block2_toptext{ width: 100%;  top:0; left: 0; margin: 0 auto; }
+
+    .dashboard2_block2_div{ width: 100%;  padding-bottom: 15px;}
+
+    .dashboard2_block2{ padding-top: 100px; }
+
+    .conference_banner_bgblock1{ left: 0px;}
+
+    .conference_banner2_bgblock1{ left: 0px;}
+    .topblok_wrapper .navbar-default ul li a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .dealerstrengthezineformimg{ width: 480px;}
 
+    .newtextblockcon2 h4{ font-size: 26px;}
+
+    .newtextblockcon2 h5 {
+
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .topblok_wrapper .navbar-default ul li a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
@@ -3215,6 +3478,28 @@
 
 
 @media(max-width:1199px){
+
+    .dashboard2_block2{ padding-top: 0px; background-size: cover; }
+    .dashboard2_block2_toptext{ width: 100%;  top:0; left: 0; margin: 0 auto; position: inherit; margin-bottom: 0px; }
+
+    .dashboard2_block2_wrapper{ padding:10px 15px 30px 15px !important; background:none; height: auto;}
+
+    .dashboard2_block2_wrapper h2{ background: none; margin: 0; padding: 0; text-align: center;}
+
+    .dashboard2_block1{ padding: 50px 15px;}
+
+    .dashboard2_block1 .dashboard2_block1_left{ background:none; margin: 0 0 35px 0; padding: 0; text-align: center;}
+
+    .dashboard2_block1 .dashboard2_block1_left h4{ padding: 0px;}
+
+    .conblock4con_bg{   text-align: left!important;  background: url("system/themes/marketplace/images/sessionagenda_new2.jpg") no-repeat top center; min-height: 300px; padding: 230px 10px 0 10px; background-size: 300px; }
+
+    .conblock4con_bg h2,.conblock4con_bg h3, .conblock4con_bg h4{text-align: center!important; padding-left: 0px!important; padding-right: 0px!important;}
+
+
+
+
+
     .aboutus_block1_box1 h4 {
         text-align: center;
         padding-top: 10px;
@@ -3317,6 +3602,11 @@
     .conbanner2 .conbanner2_text1{ width: 860px;}
     .conbanner2 .conbanner2_text2{ width: 670px;}
 
+    .conbanner2_text2_new{ border-radius: 8px 8px 0 0;
+        width: 70%;}
+
+
+
     .bottombanner_2_img1 {
         bottom: 0;
         position: absolute;
@@ -3363,7 +3653,7 @@
 
 
 @media(max-width:1544px){
-    .sessions_blog{ width: 1202px;  margin: 44px auto;  margin-top: 44px;  border-top: solid 1px #848585;   border-left: solid 1px #848585;}
+    .sessions_blog{ width: 1202px;  margin: 44px auto;  margin-top: 44px;  border-top: solid 1px #848585;}
 
     .sessions_blogcon{ width: 600px; float: left;}
 
@@ -3387,15 +3677,33 @@
 }
 
 @media(max-width:1400px){
+
+    .colorblock1_div{ height: 350px; overflow: hidden;}
     .bottombanner_2_img1 {
         bottom: 0;
         position: absolute;
         right: -100px;
     }
 
+
+    .hometextblock4 .hometextblock4-wrapper h5{ width: 96%;     font-size: 24px;}
+
+
+  .hometextblock4 .hometextblock4-wrapper {
+    margin: 0 0 0 200px;
+  padding: 42px 20px 42px 188px;
+    }
+
+    .hometextblock4 .hometextblock4-wrapper h3 {
+        padding: 26px 20px 26px 118px;
+
+    }
+
 }
 
 @media(max-width:1330px){
+
+    .homebannerblock .bannercontent h3 span{ display: block;}
 
 .dealerstrengtmagazineblock .magazineblockthree  .magazinelink_wrapper .magazinelink1{
     font-size: 14px;
@@ -3413,6 +3721,14 @@
 }
 @media(max-width:1300px){
 
+    .colorblock1_div{ height: 410px; overflow: hidden;}
+
+    .dashboard2_block2_wrapper{ padding: 60px 60px 0 580px  }
+
+    .bootbtn3new1 {
+        margin-top: 20px;
+    }
+
     .conbanner1_wrapper{ background-position: -230px bottom;}
 
     .bottombanner_2_img1 {
@@ -3422,8 +3738,21 @@
         width: 410px;
     }
 }
+@media(max-width:1240px){
+.conference_banner2_text .bannertextblock1{ width: 600px;}
+}
 
 @media(max-width:1199px){
+
+
+    .colorblock1_div{ height: auto; overflow: hidden;}
+    .conference_banner2_text .bannertextblock1{ width: 100%;}
+
+    .exhibitors_block3 .exhibitors3_textcon .exhibitors3_text1 {
+        padding: 0 30px 25px 30px!important;
+    }
+    .hometextblock4 .hometextblock4-wrapper{ margin-left: 0px;}
+    .hometextblock4 .hometextblock4-wrapper h3{ padding: 26px; text-align: center;}
 
     .sessions_blog{ width: 772px; }
     .sessions_blogcon{ width: 770px; float: none;}
@@ -3434,7 +3763,7 @@
     .sessions_blogcon .blogtextcon{ width: 513px; float: right; background: url("system/themes/marketplace/images/dimg_border.png") no-repeat left top; padding-left: 22px; height: 100%;}
 
 
-    .sessions_blogcon .blogtextcon h2{  font-size: 36px; color: #383737; text-transform: none; text-shadow: none; margin: 0; padding: 10px 0;   font-family: 'Roboto-Bold'; text-align: left;}
+    .sessions_blogcon .blogtextcon h2{  font-size: 26px; color: #383737; text-transform: none; text-shadow: none; margin: 0; padding: 10px 0;   font-family: 'Roboto-Bold'; text-align: left;}
 
 
     .sessions_blogcon .blogtextcon h3{ height: auto; font-size: 24px; color: #ff4800; text-transform: none; text-shadow: none; margin: 0; padding:6px 0 10px 0;   font-family: 'Roboto-Bold'; text-align: left;}
@@ -3452,6 +3781,10 @@
     .conbanner2 .conbanner2_text1{ width: 96%;}
 
     .conbanner2 .conbanner2_text2{ width: 95%; border-radius: 8px; -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);
+        box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);}
+
+    .conbanner2_text2_new{ width: 95%; border-radius: 8px; -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);
         -moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);
         box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.55);}
 
@@ -3586,6 +3919,10 @@
 
 @media(max-width:767px){
 
+    .topblok_wrapper .navbar-default ul li a {
+        font-size: 16px;
+    }
+
     .bookingcheckout_wrapper{ width: 96%; margin: 30px auto;}
 
     .hometextblock6 .hometextblock6-wrapper h2{ padding-left: 10px; padding-right: 10px;}
@@ -3677,10 +4014,41 @@
 
 @media(max-width:1580px){
 
+    .sessions_blogcon .blogtextcon h2 {
+        font-size: 22px;
+    }
+
+    .sessions_blogcon .blogtextcon h4{ padding: 16px 2px }
+
     .contactformwrapper{ padding-left: 40px !important; background-position: 590px bottom !important;}
 
+    .topblok_wrapper .top-menu {
+        width: 65%;}
+    .topblok_wrapper .navbar-default ul li a{ padding-left: 9px; padding-right: 9px;}
 
+    .conference_banner_text .bannertextblock1 h2 span {
+        display: block;
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 15px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .conference_banner2_text .bannertextblock1 h2 span {
+        display: block;
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 15px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
+    .conference_banner2_text .bannertextblock1 h3 {
+
+        font-size: 20px;
+        line-height: 26px;
+
+    }
 }
 
 @media(max-width:1460px){
@@ -3691,6 +4059,20 @@
     }
 
 }
+
+@media(max-width:1360px){
+    .footertop .footermenu {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .h2textblock{ font-size: 28px;}
+    .topblok_wrapper .top-menu {
+        width: 75%;}
+    .topblok_wrapper .navbar-default ul li a{ font-size: 12px;}
+
+}
+
 
 
 @media(max-width:1280px){
@@ -3707,6 +4089,20 @@
     .sponsorshipslogowrapper{ background: #dedede;  width: 1200px; margin: 50px auto;}
 
     .sponsorshipslogowrapper .sponsorshipslogo{  width: 398px; height: 398px; float: left; margin: 0 1px ;  }
+
+
+}
+
+
+
+@media(max-width:1260px){
+    .topblok_wrapper .navbar-default ul li a {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .topblok_wrapper .top-menu {
+        width: 77%;}
 
 
 }
@@ -3766,7 +4162,7 @@
 
 @media(max-width:580px){
 
-
+    .newtextblockcon2 h5{ padding: 0 6px;}
 
     .contactform_div3 {
 
@@ -3800,12 +4196,23 @@
 
     .contactform_div2 span{ margin: 8px;}
 
+    .conbanner2_text2_btn{ font-size: 28px; line-height: 30px;}
+
 }
 
 
 
 
 @media(max-width:1199px){
+
+    .footertop .footermenu {
+        float: none;
+        text-align: center;
+        width: 100%!important;
+    }
+    .bootbtn3new{ width: 80%;}
+    .con2leftbtn{ margin-top: 15px;}
+
     .getpass_block2_singleimgwrapper {
         overflow: hidden;
         height: auto;
@@ -3870,11 +4277,11 @@
 
 @media(max-width:1411px){
     .ta_block2_wrapper .getpass_block1_left {
-        margin: 50px 30px 30px 30px;
-    }
-    .ta_block2_wrapper .getpass_block1 h2:after {left: 30px;}
-
+        margin: 50px 30px 30px 30px; }
+  /*  .ta_block2_wrapper .getpass_block1 h2:after {left: 30px;}
+*/
     .ta_block3_wrapper .getpass_block1_left {
         margin: 50px 30px 30px 30px;
     }
+
 }
